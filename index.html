@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> LISA STANTON | Design Portfolio </title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <a href="index.html"> <img id="logo" src="images/logo.svg" alt="image of logo"> </a>
+      <!-- FULL SCREEN -->
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="images/lsresume.pdf" download>RESUME</a></li>
+          <li><a href="contactpage.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- MOBILE -->
+      <div class="topnav">
+        <div id="navLinks">
+          <a href="about.html">ABOUT</a>
+          <a href="images/lsresume.pdf" download>RESUME</a>
+          <a href="contactpage.html">CONTACT</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="middle">
+      <h1 id="lisa">Lisa Stanton</h1>
+      <h4 id="tagline">Turkish UX/UI Designer in Austin, Texas with a background in Fashion</h4>
+    </div>
+    <div class="recent-work">
+      <h3 id="recent-work-header"> MY RECENT WORK </h3>
+      <div class="projects">
+        <div class="project-images">
+          <img id="petal-project-img" src="images/petalimage.jpg" alt="image of project">
+          <div class="overlay">
+            <h4 id="cloudservice">PETAL CLOUD SERVICE</h4>
+            <p>
+            A cloud storage platform where users with multiple devices can store digital data files into one location.
+            </p>
+            <li><a href="project.html">View Case Study</a></li>
+          </div>
+        </div>
+        <div class="project-images">
+          <img id="comingsoon" src="images/comingsoon.jpg" alt="image of project">
+          <!-- <div class="overlay"> -->
+            <!-- <h4> header </h4> -->
+            <!-- <p> text </p> -->
+            <!-- PUT OVERLAY FOR PROJECT HERE -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163091231-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-163091231-1');
+    </script>
+
+
+  </body>
+
+  <footer id="footer">
+    <div id="footer-contents">
+      <h3>Let's Stay In Touch!</h3>
+      <a href="https://500px.com/lisvmonet"><img src="images/500px.svg" alt="500px"></a>
+      <a href="https://www.instagram.com/_lisvstvn/"><img src="images/instagram.svg" alt="instagram"></a>
+      <a href="https://www.linkedin.com/in/lisastan/"><img src="images/linkedin.svg" alt="linkedin"></a>
+    </div>
+  </footer>
+</html>
