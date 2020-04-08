@@ -277,6 +277,7 @@ footer img {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .form-container {
@@ -838,7 +839,7 @@ body h4 {
 }
 
 body p {
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
 
 nav li, a:visited {
@@ -855,7 +856,7 @@ nav li, a:visited {
 }
 
 /* TABLETS */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1200px) {
 
   body section {
     width: 80%;
@@ -870,13 +871,13 @@ nav li, a:visited {
     padding: 14px 10px;
   }
 
-.container {
-  justify-content: space-between;
-}
+  .container {
+    justify-content: space-between;
+  }
 
-#photo-container {
-  float: none;
-}
+  #photo-container {
+    float: none;
+  }
 
 }
 
@@ -1020,6 +1021,10 @@ nav li, a:visited {
     margin-right: 20px;
   }
 
+  nav a {
+    color: white;
+  }
+
   nav li, a:visited {
     font-family: 'Vollkorn', serif;
     font-style: normal;
@@ -1063,5 +1068,9 @@ nav li, a:visited {
   .full-width-banner p {
     width: 45%;
     margin: auto;
+  }
+
+  #user-flow-image {
+    width: 120%;
   }
 }
