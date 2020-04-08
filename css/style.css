@@ -52,6 +52,10 @@ li {
   margin-right: 8px;
 }
 
+.topnav a.icon:visted {
+  color: white;
+}
+
 .topnav a:hover {
   background-color: #04ADBF;
   color: black;
