@@ -279,13 +279,6 @@ footer img {
   text-align: center;
 }
 
-#number {
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  text-align: center;
-  padding: 30px 0 70px 0;
-}
-
 .form-container {
   background-color: #04ADBF;
   height: 325px;
@@ -1057,10 +1050,6 @@ nav li, a:visited {
   .middle {
     height: 235px;
     padding-top: 50px;
-  }
-
-  #available, #number {
-    font-size: 22px;
   }
 
   #petal-project-img {
