@@ -1,5 +1,5 @@
 body {
-  max-width: 1200px;
+
   margin: auto;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 #lisa {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -87,7 +87,7 @@ a {
 
 #tagline {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 19px;
   line-height: 150%;
   color: #000000;
@@ -99,7 +99,7 @@ a {
   font-size: 24px;
   background: #04ADBF;
   padding: 40px 0;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 #recent-work-header {
@@ -134,7 +134,7 @@ a {
 }
 
 #cloudservice{
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -142,7 +142,7 @@ a {
 }
 
 .projects p {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   line-height: 150%;
   text-align: center;
@@ -165,7 +165,7 @@ a {
 }
 
 footer h3 {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -193,7 +193,7 @@ footer img {
   width: 190px;
   margin: auto;
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-align: center;
 }
 
@@ -207,22 +207,22 @@ footer img {
 /* about css code  */
 
 #biography {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 35px;
   text-align: center;
   padding: 35px 70px;
 }
 
 #first {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
   line-height: 1.75em;
   text-align: left;
 }
 
 #strong {
   font-weight: bold;
-  font-size: 27px;
+  font-size: 20px;
 }
 
 .main {
@@ -271,14 +271,14 @@ footer img {
 /* contact page css code  */
 
 #name {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 35px;
   text-align: center;
   padding: 70px 0 30px 0;
 }
 
 #available {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 17px;
   text-align: center;
   padding-bottom: 60px;
@@ -293,7 +293,7 @@ footer img {
 }
 
 input::placeholder, textarea::placeholder {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 10pt;
   text-align: center;
 }
@@ -303,7 +303,7 @@ input::placeholder, textarea::placeholder {
   height: 30px;
   margin: 10px auto;
   border: 1px solid #cccccc;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .form-container textarea {
@@ -321,7 +321,7 @@ input::placeholder, textarea::placeholder {
 
 input, textarea {
   display: block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   border-radius: 4px;
 }
 
@@ -343,20 +343,32 @@ input[type=submit] {
 }
 
 #project-name {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 32px;
   font-weight: bold;
   margin: 20px 0;
 }
 
-#button {
+#web-button {
   background-color: #F2B705;
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
+  display: inline;
+}
+
+#mobile-button {
+  background-color: #F2B705;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  border-radius: 6px;
+  display: inline;
 }
 
 .summary-right-side {
@@ -376,7 +388,7 @@ input[type=submit] {
 }
 
 .roles {
-  align-self: flex-end;
+  justify-content: center;
   display: flex;
   align-items: center;
   align-content: center;
@@ -391,7 +403,7 @@ input[type=submit] {
   margin: 2px;
   margin-top: 20px;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -423,7 +435,7 @@ input[type=submit] {
 
 .problem-solution {
   background-color: #04ADBF;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   color: white;
   padding: 35px;
@@ -439,15 +451,16 @@ input[type=submit] {
 
 #problem, #solution  {
   font-size: 30pt;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .wrapper h4 {
   font-size: 24pt;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 section li {
@@ -459,7 +472,7 @@ section ul {
 }
 
 #research {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
   text-align: center;
@@ -467,32 +480,34 @@ section ul {
 
 #research-paragraph {
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-align: left;
 }
 
 #research-bullets li{
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   list-style-type: disc;
   line-height: 1.25rem;
   text-align: left;
 }
 
 #competitive-analysis {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
 }
 
 #competitive-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
 }
 
 #competitive-paragraph-two {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
 }
 
 #competitor-logos {
@@ -506,7 +521,7 @@ section ul {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
   margin: 40px auto;
@@ -514,14 +529,15 @@ section ul {
 }
 
 #user-personas {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
 }
 
 #user-personas-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
 }
 
 .user-photos {
@@ -540,7 +556,7 @@ section ul {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
   margin: 20px auto;
@@ -548,15 +564,16 @@ section ul {
 }
 
 #user-stories {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
   display: block;
 }
 
 #user-stories-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
 }
 
 #user-table {
@@ -566,7 +583,7 @@ section ul {
 
 #user-table tr, #user-table th, #user-table td {
   border: 1px solid black;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   padding: 10px;
   vertical-align: middle;
@@ -594,14 +611,15 @@ section ul {
 }
 
 #user-flow {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
 }
 
 #user-flow-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
 }
 
 #user-flow-image {
@@ -612,12 +630,12 @@ section ul {
 .full-width-banner {
   background-color: #04ADBF;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: white;
   padding: 25px;
-  width: 90%;
+  width: 100%;
   margin: 25px 0;
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
 }
 
@@ -632,28 +650,40 @@ section ul {
   width: 50%;
 }
 
-.wireframes-2 img {
-  margin-bottom: 20px;
-  margin: 15px 0;
+#wf1 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+#wf2 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 #implementing-early {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin-bottom: 20px;
 }
 
 .implementing-early-paragraph {
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   margin: 40px;
+  text-align: left;
 }
 
 .implementing-button {
   background-color: #F2B705;
   color: white;
   padding: 15px 32px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
   display: block;
@@ -662,32 +692,35 @@ section ul {
 }
 
 #mobile-wire {
-  width: 100%;
+  width: 60%;
 }
 
 #brand-dev {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   padding-bottom: 25px;
 }
 
 #brand-dev-one {
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
 }
 
 #brand-dev-two {
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-align: center;
   margin: 40px;
+  text-align:left;
 }
 
 #brand-dev-three {
   text-align: center;
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   margin: 40px;
+  text-align: left;
 }
 
 .prelim-logo {
@@ -709,7 +742,7 @@ section ul {
 .execution-testing-box {
   background-color: #04ADBF;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: white;
   padding: 25px;
 }
@@ -720,15 +753,13 @@ section ul {
 }
 
 #new-hifi-mobile {
-  max-height: 400px;
-  width: auto;
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  width: 32%;
 }
 
 #final-hifi-mobile {
-  max-height: 400px;
   width: 100%;
   display: flex;
   margin: auto;
@@ -736,23 +767,29 @@ section ul {
 }
 
 #final-hifi-mobile img {
-  max-height: 400px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #execution-testing {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
 }
 
 #execution-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  text-align: left;
+  margin-top: 15px;
+
 }
 
 #execution-paragraph-one {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: center;
+  text-align: left;
 }
 
 .execution-button {
@@ -760,21 +797,21 @@ section ul {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
 }
 
 #execution-paragraph-two {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: center;
+  text-align: left;
 }
 
 #execution-paragraph-three {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: center;
+  text-align: left;
 }
 
 .execution-button-two {
@@ -782,43 +819,48 @@ section ul {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
 }
 
 #execution-paragraph-four {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: center;
+  text-align: left;
 }
 
 #execution-paragraph-five {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: center;
+  text-align: left;
+}
+
+#upgrade1 {
+  width: 30%;
+
 }
 
 #conclusion {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 37px;
   text-align: center;
   margin: 35px;
 }
 
 #conclusion-paragraph {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
 }
 
 #conclusion-paragraph-one {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12pt;
 }
 
 #conclusion-bullets li {
   font-size: 12pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Manrope', sans-serif;
   list-style-type: disc;
 }
 
@@ -1030,7 +1072,7 @@ nav li, a:visited {
   }
 
   nav li, a:visited {
-    font-family: 'Vollkorn', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-size: 24px;
     align-items: center;
@@ -1075,6 +1117,9 @@ nav li, a:visited {
   }
 
   #user-flow-image {
-    width: 120%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
