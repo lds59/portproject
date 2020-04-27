@@ -133,7 +133,15 @@ a {
   width: 100%;
 }
 
-#cloudservice{
+#cloudservice {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #04ADBF;
+}
+
+#bookapp {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
