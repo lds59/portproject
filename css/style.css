@@ -125,23 +125,25 @@ a {
   box-shadow: 0px 0px 52px 20px rgb(102,102,102,0.78);
 }
 
+.project-images-two {
+  max-width: 507px;
+  width: 90%;
+  max-height: 220px;
+  box-shadow: 0px 0px 52px 20px rgb(102,102,102,0.78);
+}
+
 #petal-project-img {
   display: none;
 }
 
+#vivre-livre {
+  display: none;
+}
 .project-images img {
   width: 100%;
 }
 
 #cloudservice {
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: #04ADBF;
-}
-
-#bookapp {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -155,33 +157,6 @@ a {
   line-height: 150%;
   text-align: center;
   color: #04ADBF;
-  margin: 10px;
-}
-
-#footer {
-  width: 100%;
-  height: 150px;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#footer-contents {
-  display: flex;
-  margin-right: 20px;
-  align-items: center;
-}
-
-footer h3 {
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  color: #000000;
-  margin-right: 5px;
-}
-
-footer img {
   margin: 10px;
 }
 
@@ -210,6 +185,14 @@ footer img {
   height: 20px;
   width: 100%;
   padding: 20px 0;
+}
+
+#bookapp {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #04ADBF;
 }
 
 /* about css code  */
@@ -344,6 +327,16 @@ input[type=submit] {
   height: 100%;
   max-width:495px;
   max-height:350px;
+}
+
+#vlpreview {
+  width: 100%;
+  height: 100%;
+  max-width:190px;
+  max-height:448px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #preview-container {
@@ -492,6 +485,12 @@ section ul {
   text-align: left;
 }
 
+#research-paragraph-two {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  text-align: left;
+}
+
 #research-bullets li{
   font-size: 12pt;
   font-family: 'Manrope', sans-serif;
@@ -554,9 +553,9 @@ section ul {
 }
 
 .user-photos img {
-  margin-top: 40px;
+  margin-top: 20px;
   width: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .user-personas-button {
@@ -586,7 +585,7 @@ section ul {
 
 #user-table {
   margin-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 #user-table tr, #user-table th, #user-table td {
@@ -653,13 +652,13 @@ section ul {
 }
 
 .wireframes img {
-  max-height: 265px;
+  max-height: 280px;
   margin-bottom: 20px;
   width: 50%;
 }
 
 #wf1 {
-  width: 100%;
+  width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -667,7 +666,15 @@ section ul {
 }
 
 #wf2 {
-  width: 100%;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+#wf3 {
+  width: 85%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -700,7 +707,7 @@ section ul {
 }
 
 #mobile-wire {
-  width: 60%;
+  width: 85%;
 }
 
 #brand-dev {
@@ -731,20 +738,29 @@ section ul {
   text-align: left;
 }
 
-.prelim-logo {
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0;
+#brand-dev-four {
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+}
+
+.logosketch {
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .guides {
-  width: 100%;
+  width: 75%;
   margin: 15px 0;
 }
 
 .execution img {
-  width: 100%;
-  margin: 40px 0;
+  width: 85%;
+  margin: 20px 0;
 }
 
 .execution-testing-box {
@@ -898,6 +914,33 @@ body p {
 
 nav li, a:visited {
   color: #FFFFFF;
+}
+
+#footer {
+  width: 100%;
+  height: 150px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer-contents {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+footer h3 {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin-right: 5px;
+}
+
+footer img {
+  margin: 10px;
 }
 
 /* MEDIA QUERIES */
