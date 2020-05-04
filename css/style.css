@@ -354,6 +354,7 @@ input[type=submit] {
   font-size: 32px;
   font-weight: bold;
   margin: 20px 0;
+  color: #0f2d56;
 }
 
 #web-button {
@@ -468,6 +469,7 @@ input[type=submit] {
   font-family: 'Manrope', sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #0f2d56;
 }
 
 section li {
@@ -483,18 +485,21 @@ section ul {
   font-size: 37px;
   margin: 35px;
   text-align: center;
+  color: #0f2d56;
 }
 
 #research-paragraph {
   font-size: 12pt;
   font-family: 'Manrope', sans-serif;
   text-align: left;
+  color: #0f2d56;
 }
 
 #research-paragraph-two {
   font-size: 12pt;
   font-family: 'Manrope', sans-serif;
   text-align: left;
+  color: #0f2d56;
 }
 
 #research-bullets li{
@@ -503,24 +508,28 @@ section ul {
   list-style-type: disc;
   line-height: 1.25rem;
   text-align: left;
+  color: #0f2d56;
 }
 
 #competitive-analysis {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
+  color: #0f2d56;
 }
 
 #competitive-paragraph {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #competitive-paragraph-two {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #competitor-logos {
@@ -545,12 +554,14 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
+  color: #0f2d56;
 }
 
 #user-personas-paragraph {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 .user-photos {
@@ -581,12 +592,14 @@ section ul {
   font-size: 37px;
   margin: 35px;
   display: block;
+  color: #0f2d56;
 }
 
 #user-stories-paragraph {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #user-table {
@@ -600,6 +613,7 @@ section ul {
   font-size: 12pt;
   padding: 10px;
   vertical-align: middle;
+  color: #0f2d56;
 }
 
 #user-table th {
@@ -627,12 +641,14 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
   margin: 35px;
+  color: #0f2d56;
 }
 
 #user-flow-paragraph {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #user-flow-image {
@@ -700,6 +716,46 @@ section ul {
   text-align: left;
 }
 
+.implementing-early-paragraph-one {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+  color: #0f2d56;
+}
+
+.implementing-early-paragraph-two {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+  color: #0f2d56;
+}
+
+.implementing-early-paragraph-three {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+  color: #0f2d56;
+}
+
+.implementing-early-paragraph-four {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+  color: #0f2d56;
+}
+
+.implementing-early-paragraph-five {
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  margin: 40px;
+  text-align: left;
+  color: #0f2d56;
+}
+
 .implementing-button {
   background-color: #F2B705;
   color: white;
@@ -734,6 +790,7 @@ section ul {
   text-align: center;
   margin: 40px;
   text-align:left;
+  color: #0f2d56;
 }
 
 #brand-dev-three {
@@ -742,6 +799,7 @@ section ul {
   font-family: 'Manrope', sans-serif;
   margin: 40px;
   text-align: left;
+  color: #0f2d56;
 }
 
 #brand-dev-four {
@@ -750,6 +808,7 @@ section ul {
   font-family: 'Manrope', sans-serif;
   margin: 40px;
   text-align: left;
+  color: #0f2d56;
 }
 
 .logosketch {
@@ -820,6 +879,7 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 .execution-button {
@@ -836,12 +896,14 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #execution-paragraph-three {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 .execution-button-two {
@@ -858,12 +920,14 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #execution-paragraph-five {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
   text-align: left;
+  color: #0f2d56;
 }
 
 #upgrade1 {
@@ -876,27 +940,32 @@ section ul {
   font-size: 37px;
   text-align: center;
   margin: 35px;
+  color: #0f2d56;
 }
 
 #conclusion-paragraph {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  color: #0f2d56;
 }
 
 #conclusion-paragraph-one {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
+  color: #0f2d56;
 }
 
 #conclusion-bullets li {
   font-size: 12pt;
   font-family: 'Manrope', sans-serif;
   list-style-type: disc;
+  color: #0f2d56;
 }
 
 #conclusion-bullets li {
   line-height: 1.25rem;
   margin-bottom: 10px;
+  color: #0f2d56;
 }
 
 .conclusion-box p,li {
@@ -919,7 +988,7 @@ body p {
 }
 
 nav li, a:visited {
-  color: #04ADBF;
+  color: ##04ADBF;
 }
 
 #footer {
