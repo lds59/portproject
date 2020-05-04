@@ -10,7 +10,7 @@ li {
 .top-bar {
   width: 100%;
   height: 100px;
-  background: #04ADBF;
+  background: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,15 +21,16 @@ li {
 }
 
 #logo {
-  width: 50px;
-  height: 140.16px;
-  padding: 0 0 15px 8px;
+  width: 55px;
+  height: 70px;
+  padding: 20px 0 20px 20px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #04ADBF;
+  background-color: #FFFFFF;
   position: relative;
+  font-family: 'Manrope', sans-serif;
 }
 
 .topnav #navLinks {
@@ -39,7 +40,7 @@ li {
 
 .topnav a {
   float: left;
-  color: white;
+  color: #04ADBF;
   padding: 14px 5px;
   text-decoration: none;
   font-size: 18px;
@@ -57,13 +58,13 @@ li {
 }
 
 .topnav a:hover {
-  background-color: #04ADBF;
-  color: black;
+  background-color: #FFFFFF;
+  color: #F2B705;
 }
 
 .active {
   background-color: #4CAF50;
-  color: white;
+  color: #F2B705;
 }
 
 nav {
@@ -79,7 +80,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-  color: #000000;
+  color: #0f2d56;
   padding: 30px 26px 30px 45px;
   font-variant: small-caps;
   text-align:center;
@@ -90,7 +91,7 @@ a {
   font-family: 'Manrope', sans-serif;
   font-size: 19px;
   line-height: 150%;
-  color: #000000;
+  color: #0f2d56;
   padding-right: 20px;
 }
 
@@ -202,6 +203,7 @@ a {
   font-size: 35px;
   text-align: center;
   padding: 35px 70px;
+  color: #0f2d56;
 }
 
 #first {
@@ -209,6 +211,7 @@ a {
   font-size: 15px;
   line-height: 1.75em;
   text-align: left;
+  color: #0f2d56;
 }
 
 #strong {
@@ -266,6 +269,7 @@ a {
   font-size: 35px;
   text-align: center;
   padding: 70px 0 30px 0;
+  color: #0f2d56;
 }
 
 #available {
@@ -273,6 +277,7 @@ a {
   font-size: 17px;
   text-align: center;
   padding-bottom: 60px;
+  color: #0f2d56;
 }
 
 .form-container {
@@ -287,6 +292,7 @@ input::placeholder, textarea::placeholder {
   font-family: 'Manrope', sans-serif;
   font-size: 10pt;
   text-align: center;
+  color: #0f2d56;
 }
 
 .form-container input {
@@ -913,7 +919,7 @@ body p {
 }
 
 nav li, a:visited {
-  color: #FFFFFF;
+  color: #04ADBF;
 }
 
 #footer {
@@ -935,7 +941,7 @@ footer h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: #000000;
+  color: #04ADBF;
   margin-right: 5px;
 }
 
@@ -964,7 +970,7 @@ footer img {
   }
 
   .topnav a {
-    font-size: 22px;
+    font-size: 19px;
     padding: 14px 10px;
   }
 
@@ -1100,7 +1106,7 @@ footer img {
   }
 
   #tagline {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   nav {
@@ -1119,26 +1125,27 @@ footer img {
   }
 
   nav a {
-    color: white;
+    color: #04ADBF;
   }
 
   nav li, a:visited {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
-    color: #FFFFFF;
-    margin: 10px;
-    padding-bottom: 15px;
+    color: #04ADBF;
+    margin: 30px;
+    padding-bottom: 16px;
   }
 
   nav li:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #F2B705;
   }
 
   #logo {
     width: 70px;
-    padding: 0 0 15px 25px;
+    padding: 30px 0 20px 30px;
+    height: 90px;
   }
 
   .top-bar {
