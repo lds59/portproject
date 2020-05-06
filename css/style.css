@@ -138,9 +138,11 @@ a {
   display: none;
 }
 
-#vivre-livre {
+#vivrelivre {
   display: none;
 }
+
+
 .project-images img {
   width: 100%;
 }
@@ -1231,6 +1233,10 @@ footer img {
   }
 
   #petal-project-img {
+    display: inline;
+  }
+
+  #vivrelivre {
     display: inline;
   }
 
