@@ -73,6 +73,7 @@ nav {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 #lisa {
@@ -89,7 +90,7 @@ a {
 #tagline {
   text-align: center;
   font-family: 'Manrope', sans-serif;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 150%;
   color: #0f2d56;
   padding-right: 20px;
@@ -109,7 +110,7 @@ a {
   font-size: 35px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .projects {
@@ -120,17 +121,17 @@ a {
 }
 
 .project-images {
-  max-width: 507px;
+  max-width: 470px;
   width: 90%;
   max-height: 220px;
-  box-shadow: 0px 0px 52px 20px rgb(102,102,102,0.78);
+  box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78);
 }
 
 .project-images-two {
-  max-width: 507px;
+  max-width: 470px;
   width: 90%;
   max-height: 220px;
-  box-shadow: 0px 0px 52px 20px rgb(102,102,102,0.78);
+  box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78);
 }
 
 #petal-project-img {
@@ -155,7 +156,7 @@ a {
 .projects p {
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
-  line-height: 150%;
+  line-height: 130%;
   text-align: center;
   color: #04ADBF;
   margin: 10px;
@@ -331,7 +332,7 @@ input[type=submit] {
 #preview {
   width: 100%;
   height: 100%;
-  max-width:495px;
+  max-width:500px;
   max-height:350px;
 }
 
@@ -1114,12 +1115,16 @@ footer img {
   .project-images:hover .overlay {
     vertical-align: center;
     opacity: 1;
-    height: 294px;
+    height: 272px;
     transform: translate(0, -101%);
   }
 
   .project-images:hover #cloudservice {
-    padding-top: 55px;
+    padding-top: 45px;
+  }
+
+  .project-images:hover #bookapp {
+    padding-top: 33px;
   }
 
   .overlay {
@@ -1155,7 +1160,7 @@ footer img {
 
   .project-images {
     width: 45%;
-    max-height: 294px;
+    max-height: 266px;
   }
 
   .projects {
@@ -1163,11 +1168,11 @@ footer img {
   }
 
   .recent-work {
-    padding: 60px 0;
+    padding: 33px 0;
   }
 
   #recent-work-header {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   #tagline {
