@@ -83,7 +83,7 @@ a {
   font-weight: bold;
   font-size: 50px;
   color: #0f2d56;
-  padding: 120px 26px 30px 45px;
+  padding: 120px 26px 30px 100px;
   font-variant: small-caps;
   text-align:left;
 }
@@ -92,9 +92,9 @@ a {
   text-align: left;
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
-  line-height: 150%;
+  line-height: 165%;
   color: #0f2d56;
-  padding-left: 45px;
+  padding-left: 100px;
 }
 
 .recent-work {
@@ -142,7 +142,6 @@ a {
 #vivrelivre {
   display: none;
 }
-
 
 .project-images img {
   width: 100%;
@@ -1067,10 +1066,6 @@ footer img {
 @media only screen and (min-width: 1200px) {
   body section {
     width: 45%;
-  }
-
-  #skyline{
-
   }
 
   #project-name {
