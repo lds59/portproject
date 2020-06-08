@@ -9,11 +9,12 @@ li {
 
 .top-bar {
   width: 100%;
-  height: 100px;
+  height: 85px;
   background: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .middle {
@@ -82,18 +83,18 @@ a {
   font-weight: bold;
   font-size: 50px;
   color: #0f2d56;
-  padding: 30px 26px 30px 45px;
+  padding: 120px 26px 30px 45px;
   font-variant: small-caps;
-  text-align:center;
+  text-align:left;
 }
 
 #tagline {
-  text-align: center;
+  text-align: left;
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   line-height: 150%;
   color: #0f2d56;
-  padding-right: 20px;
+  padding-left: 45px;
 }
 
 .recent-work {
@@ -109,8 +110,8 @@ a {
   font-weight: bold;
   font-size: 35px;
   text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 10px;
+  color: #04ADBF;
+  padding-top: 120px;
 }
 
 .projects {
@@ -1024,6 +1025,11 @@ footer img {
   .topnav a {
     font-size: 15px;
   }
+
+  #recent-work-header {
+    padding-top: 180px;
+    padding-bottom: 30px;
+  }
 }
 
 /* TABLETS */
@@ -1033,6 +1039,7 @@ footer img {
     width: 80%;
   }
 
+
   #preview-container {
     width: auto;
   }
@@ -1040,6 +1047,11 @@ footer img {
   .topnav a {
     font-size: 19px;
     padding: 14px 10px;
+  }
+
+  #recent-work-header {
+    padding-top: 120px;
+    padding-bottom: 30px;
   }
 
   .container {
@@ -1058,6 +1070,9 @@ footer img {
     width: 45%;
   }
 
+  #skyline{
+
+  }
   #project-name {
     font-size: 50px;
   }
@@ -1170,7 +1185,7 @@ footer img {
   }
 
   .recent-work {
-    padding: 33px 0;
+    padding: 120px 0;
   }
 
   #recent-work-header {
@@ -1220,7 +1235,7 @@ footer img {
   }
 
   .top-bar {
-    height: 125px;
+    height: 100px;
   }
 
   .topnav {
