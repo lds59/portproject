@@ -81,9 +81,9 @@ a {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 58px;
   color: #0f2d56;
-  padding: 120px 26px 30px 100px;
+  padding: 120px 26px 30px 120px;
   font-variant: small-caps;
   text-align:left;
 }
@@ -94,7 +94,7 @@ a {
   font-size: 15px;
   line-height: 165%;
   color: #0f2d56;
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 .recent-work {
