@@ -391,7 +391,7 @@ input[type=submit] {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  
+
 }
 
 .project-summary {
@@ -1249,7 +1249,7 @@ footer img {
     padding-top: 120px;
     display: flex;
     justify-content: flex-start;
-    padding-right:120px;
+    padding-right: 68px;
   }
 
   #petal-project-img {
