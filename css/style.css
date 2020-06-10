@@ -125,14 +125,14 @@ a {
   max-width: 470px;
   width: 90%;
   max-height: 220px;
-  box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78);
+  /* box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78); */
 }
 
 .project-images-two {
   max-width: 470px;
   width: 90%;
   max-height: 220px;
-  box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78);
+  /* box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78); */
 }
 
 #petal-project-img {
@@ -1235,6 +1235,10 @@ footer img {
 
   .topnav {
     display: none;
+  }
+
+  #skyline {
+  max-width: 650px;
   }
 
   .middle {
