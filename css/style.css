@@ -271,7 +271,7 @@ a {
   font-family: 'Manrope', sans-serif;
   font-size: 35px;
   text-align: center;
-  padding: 70px 0 30px 0;
+  padding: 120px 0 30px 0;
   color: #0f2d56;
 }
 
@@ -391,11 +391,13 @@ input[type=submit] {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  
 }
 
 .project-summary {
   display: flex;
   flex-direction: column;
+
 }
 
 .roles {
@@ -1121,7 +1123,8 @@ footer img {
   }
 
   #biography {
-    padding: 70px;
+    padding-top: 120px;
+    padding-bottom: 75px;
   }
 
   .project-images:hover .overlay {
