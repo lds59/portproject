@@ -1012,22 +1012,30 @@ body p {
   height: 150px;
   background-color: #FFFFFF;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-top: 120px;
 }
 
 #footer-contents {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-right: 20px;
-  align-items: center;
 }
 
-footer h3 {
+#cc {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
-  font-weight: bold;
   font-size: 18px;
   color: #04ADBF;
   margin-right: 5px;
+  font-weight: bolder;
+}
+
+.made-by {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer img {
