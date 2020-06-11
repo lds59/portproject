@@ -83,9 +83,25 @@ a {
   font-weight: bold;
   font-size: 58px;
   color: #0f2d56;
-  padding: 65px 26px 30px 120px;
+  padding: 50px 26px 30px 120px;
   font-variant: small-caps;
   text-align:left;
+}
+
+#designer {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  color: #0f2d56;
+  padding-left: 120px;
+  padding-bottom: 30px;
+}
+
+.border-line {
+  height: 13px;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #04ADBF;
+  vertical-align: baseline;
 }
 
 #tagline {
