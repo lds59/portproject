@@ -1027,11 +1027,12 @@ body p {
 #cc {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
   color: #04ADBF;
   margin-right: 5px;
   font-weight: bold;
   padding-top: 30px;
+  text-align:center;
 }
 
 .made-by {
