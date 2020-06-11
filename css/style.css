@@ -122,12 +122,14 @@ a {
 }
 
 #recent-work-header {
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
   color: #04ADBF;
   padding-top: 120px;
+  font-variant: small-caps;
 }
 
 .projects {
@@ -1211,7 +1213,7 @@ footer img {
   }
 
   #recent-work-header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   #tagline {
