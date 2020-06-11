@@ -83,7 +83,7 @@ a {
   font-weight: bold;
   font-size: 58px;
   color: #0f2d56;
-  padding: 120px 26px 30px 120px;
+  padding: 75px 26px 30px 120px;
   font-variant: small-caps;
   text-align:left;
 }
@@ -92,7 +92,7 @@ a {
   text-align: left;
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
-  line-height: 165%;
+  line-height: 155%;
   color: #0f2d56;
   padding-left: 120px;
 }
