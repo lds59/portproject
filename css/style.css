@@ -354,6 +354,7 @@ input[type=submit] {
   height: 100%;
   max-width:500px;
   max-height:350px;
+  padding-top: 200px;
 }
 
 #vlpreview {
@@ -364,6 +365,7 @@ input[type=submit] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 175px;
 }
 
 #preview-container {
@@ -424,6 +426,10 @@ input[type=submit] {
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+#buttons-container {
+  padding-top: 30px;
 }
 
 .box {
@@ -1128,6 +1134,7 @@ footer img {
 
   #project-name {
     font-size: 50px;
+    padding-top: 100px;
   }
 
   .brand-dev {
@@ -1140,7 +1147,8 @@ footer img {
   }
 
   .wrapper h4 {
-    font-size: 30pt;
+    font-size: 27pt;
+    padding-top: 20px;
   }
 
   .problem-solution {
@@ -1149,6 +1157,7 @@ footer img {
 
   .problem-solution-container {
     flex-direction: row;
+    padding-top: 100px;
   }
 
   .container {
