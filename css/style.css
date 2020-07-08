@@ -83,22 +83,22 @@ a {
   font-weight: bold;
   font-size: 33px;
   color: #0f2d56;
-  padding: 120px 26px 30px 60px;
+  padding: 120px 26px 30px 50px;
   font-variant: small-caps;
   text-align:left;
 }
 
 #designer {
   font-family: 'Manrope', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #0f2d56;
-  padding-left: 120px;
+  padding-left: 50px;
   padding-bottom: 30px;
 }
 
 .border-line {
   height: 13px;
-  width: 41%;
+  width: 48%;
   border-radius: 5px;
   background-color: #04ADBF;
   vertical-align: baseline;
@@ -110,7 +110,8 @@ a {
   font-size: 15px;
   line-height: 155%;
   color: #0f2d56;
-  padding-left: 120px;
+  padding-left: 50px;
+  padding-right: 31px;
 }
 
 .recent-work {
@@ -127,9 +128,16 @@ a {
   font-weight: bold;
   font-size: 35px;
   text-align: center;
-  color: #04ADBF;
+  color: #0f2d56;
   padding-top: 120px;
   font-variant: small-caps;
+}
+
+#skyline {
+max-width: 330px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .projects {
@@ -1061,7 +1069,7 @@ footer img {
   }
 
   #recent-work-header {
-    padding-top: 180px;
+    padding-top: 500px;
     padding-bottom: 30px;
   }
 }
@@ -1150,6 +1158,35 @@ footer img {
     color: #0f2d56;
     padding-left: 120px;
     padding-bottom: 30px;
+  }
+
+  .border-line {
+    height: 13px;
+    width: 41%;
+    border-radius: 5px;
+    background-color: #04ADBF;
+    vertical-align: baseline;
+  }
+
+  #tagline {
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 155%;
+    color: #0f2d56;
+    padding-left: 120px;
+  }
+
+  #recent-work-header {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #04ADBF;
+    padding-top: 100px;
+    font-variant: small-caps;
+    margin-bottom: 40px;
   }
 
   #project-name {
@@ -1269,14 +1306,6 @@ footer img {
 
   .recent-work {
     padding: 120px 0;
-  }
-
-  #recent-work-header {
-    margin-bottom: 40px;
-  }
-
-  #tagline {
-    font-size: 20px;
   }
 
   nav {
