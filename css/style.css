@@ -24,7 +24,7 @@ li {
 #logo {
   width: 50px;
   height: 80px;
-  padding: 20px 0 20px 35px;
+  padding: 20px 0 20px 20px;
 }
 
 .topnav {
@@ -81,9 +81,9 @@ a {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 58px;
+  font-size: 33px;
   color: #0f2d56;
-  padding: 50px 26px 30px 120px;
+  padding: 120px 26px 30px 60px;
   font-variant: small-caps;
   text-align:left;
 }
@@ -188,7 +188,7 @@ a {
   height: 100%;
   vertical-align: center;
   opacity: 1;
-  padding: 10px;
+  padding: 35px;
   margin-bottom: 20px;
 }
 
@@ -1077,6 +1077,7 @@ footer img {
     padding: 120px 26px 30px 90px;
   }
 
+
   #designer {
     padding-left: 90px;
     padding-bottom: 30px;
@@ -1130,6 +1131,25 @@ footer img {
 @media only screen and (min-width: 1200px) {
   body section {
     width: 45%;
+  }
+
+  #lisa {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    color: #0f2d56;
+    padding: 50px 26px 30px 120px;
+    font-variant: small-caps;
+    text-align:left;
+  }
+
+  #designer {
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: #0f2d56;
+    padding-left: 120px;
+    padding-bottom: 30px;
   }
 
   #project-name {
