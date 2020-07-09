@@ -98,7 +98,7 @@ a {
 
 .border-line {
   height: 13px;
-  width: 48%;
+  width: 46%;
   border-radius: 5px;
   background-color: #04ADBF;
   vertical-align: baseline;
@@ -1071,8 +1071,12 @@ footer img {
   #recent-work-header {
     padding-top: 470px;
     padding-bottom: 20px;
-    padding-left: 50px;
+    padding-left: 80px;
     font-size: 28px;
+  }
+
+  .border-line {
+    width: 46%;
   }
 }
 
@@ -1118,9 +1122,9 @@ footer img {
   }
 
   #recent-work-header {
-    padding-top: 490px;
+    padding-top: 470px;
     padding-bottom: 30px;
-    text-align: center;
+    padding-left: 280px;
   }
 
   .container {
