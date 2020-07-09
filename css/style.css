@@ -126,10 +126,10 @@ a {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
-  text-align: center;
+  font-size: 28px;
   color: #0f2d56;
   padding-top: 120px;
+  padding-left: 50px;
   font-variant: small-caps;
 }
 
@@ -1069,8 +1069,10 @@ footer img {
   }
 
   #recent-work-header {
-    padding-top: 500px;
-    padding-bottom: 30px;
+    padding-top: 470px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 28px;
   }
 }
 
@@ -1084,7 +1086,6 @@ footer img {
   #lisa {
     padding: 120px 26px 30px 90px;
   }
-
 
   #designer {
     padding-left: 90px;
@@ -1104,7 +1105,7 @@ footer img {
   }
 
   .border-line {
-    width: 32%;
+    width: 23%;
   }
 
   #preview-container {
@@ -1119,6 +1120,7 @@ footer img {
   #recent-work-header {
     padding-top: 490px;
     padding-bottom: 30px;
+    text-align: center;
   }
 
   .container {
@@ -1183,7 +1185,7 @@ footer img {
     font-weight: bold;
     font-size: 35px;
     text-align: center;
-    color: #04ADBF;
+    color: #0f2d56;
     padding-top: 100px;
     font-variant: small-caps;
     margin-bottom: 40px;
