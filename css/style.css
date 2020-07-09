@@ -1258,7 +1258,7 @@ footer img {
   .project-images:hover .overlay {
     vertical-align: center;
     opacity: 1;
-    height: 272px;
+    height: 273px;
     transform: translate(0, -101%);
   }
 
