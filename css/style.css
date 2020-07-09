@@ -229,10 +229,13 @@ margin-right: auto;
 
 #biography {
   font-family: 'Manrope', sans-serif;
-  font-size: 35px;
-  text-align: center;
-  padding: 35px 70px;
+  font-size: 48px;
+  text-align: left;
+  padding: 120px 70px;
   color: #0f2d56;
+  font-variant: small-caps;
+  font-style: normal;
+  font-weight: bold;
 }
 
 #first {
@@ -248,6 +251,14 @@ margin-right: auto;
   font-size: 20px;
 }
 
+.border-line {
+  height: 13px;
+  width: 46%;
+  border-radius: 5px;
+  background-color: #04ADBF;
+  vertical-align: baseline;
+}
+
 .main {
   margin: 0 35px;
 }
@@ -255,31 +266,19 @@ margin-right: auto;
 #photo-container {
   position: relative;
   max-height: 650px;
-  object-fit: contain;
+
   float: left;
   margin-bottom: 5px;
 }
 
 #self-portrait {
-  max-height: 650px;
+  max-height: 450px;
   width: 100%;
   object-fit: contain;
-  opacity: 1;
+  padding-left: 32px;
 }
 
-#photo-container:hover #self-portrait-overlay {
-  opacity: 1;
-}
 
-#self-portrait-overlay {
-  opacity: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-  max-height: 650px;
-  object-fit: contain;
-  width: 100%;
-}
 
 .story {
   padding: 50px;
@@ -1251,7 +1250,8 @@ footer img {
   }
 
   #biography {
-    padding-top: 120px;
+    padding-top: 180px;
+    padding-left: 120px;
     padding-bottom: 75px;
   }
 
