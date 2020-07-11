@@ -140,6 +140,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
+
 .projects {
   display: flex;
   justify-content: space-evenly;
@@ -238,25 +239,55 @@ margin-right: auto;
   font-weight: bold;
 }
 
-#first {
+.subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  color: #0f2d56;
+  font-variant: small-caps;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.first {
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
+  padding-left: 80px;
 }
 
-#strong {
-  font-weight: bold;
-  font-size: 20px;
+.heading-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.border-line {
+.heading-container-two{
+  display: flex;
+  flex-direction: column;
+  padding-left: 77px;
+}
+
+.border-line-two {
   height: 13px;
-  width: 46%;
+  width: 52%;
   border-radius: 5px;
   background-color: #04ADBF;
-  vertical-align: baseline;
+}
+
+.border-line-three {
+  height: 13px;
+  width: 30%;
+  border-radius: 5px;
+  background-color: #04ADBF;
+}
+
+.border-line-four {
+  height: 13px;
+  width: 17%;
+  border-radius: 5px;
+  background-color: #04ADBF;
 }
 
 .main {
@@ -266,7 +297,6 @@ margin-right: auto;
 #photo-container {
   position: relative;
   max-height: 650px;
-
   float: left;
   margin-bottom: 5px;
 }
@@ -275,9 +305,8 @@ margin-right: auto;
   max-height: 450px;
   width: 100%;
   object-fit: contain;
-  padding-left: 32px;
+  padding-left: 50px;
 }
-
 
 
 .story {
@@ -1252,7 +1281,7 @@ footer img {
   #biography {
     padding-top: 180px;
     padding-left: 120px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
   }
 
   .project-images:hover .overlay {
