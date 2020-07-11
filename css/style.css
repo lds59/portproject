@@ -247,6 +247,7 @@ margin-right: auto;
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .first {
@@ -256,8 +257,26 @@ margin-right: auto;
   text-align: left;
   color: #0f2d56;
   padding-left: 80px;
+  padding-bottom: 50px;
 }
 
+.second {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  line-height: 1.75em;
+  text-align: left;
+  color: #0f2d56;
+  padding-left: 45px;
+}
+
+.third {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    line-height: 1.75em;
+    text-align: left;
+    color: #0f2d56;
+    padding-left: 45px;
+}
 .heading-container {
   display: flex;
   flex-direction: column;
@@ -266,19 +285,20 @@ margin-right: auto;
 .heading-container-two{
   display: flex;
   flex-direction: column;
-  padding-left: 77px;
+  padding-left: 45px;
+
 }
 
 .border-line-two {
   height: 13px;
-  width: 52%;
+  width: 44%;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-three {
   height: 13px;
-  width: 30%;
+  width: 16%;
   border-radius: 5px;
   background-color: #04ADBF;
 }
@@ -305,7 +325,7 @@ margin-right: auto;
   max-height: 450px;
   width: 100%;
   object-fit: contain;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 
@@ -1196,7 +1216,7 @@ footer img {
 
   .border-line {
     height: 13px;
-    width: 35%;
+    width: 37%;
     border-radius: 5px;
     background-color: #04ADBF;
     vertical-align: baseline;
