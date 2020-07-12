@@ -323,9 +323,8 @@ margin-right: auto;
 
 #self-portrait {
   max-height: 450px;
-  width: 100%;
   object-fit: contain;
-  padding-left: 30px;
+  padding-left: 48px;
 }
 
 
