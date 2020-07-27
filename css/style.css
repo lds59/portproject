@@ -230,13 +230,15 @@ margin-right: auto;
 
 #biography {
   font-family: 'Manrope', sans-serif;
-  font-size: 48px;
+  font-size: 33px;
   text-align: left;
-  padding: 120px 70px;
   color: #0f2d56;
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-bottom: 60px
 }
 
 .subtitle {
@@ -247,12 +249,12 @@ margin-right: auto;
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 240px;
 }
 
 .first {
   font-family: 'Manrope', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
@@ -262,7 +264,7 @@ margin-right: auto;
 
 .second {
   font-family: 'Manrope', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
@@ -271,7 +273,7 @@ margin-right: auto;
 
 .third {
     font-family: 'Manrope', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.75em;
     text-align: left;
     color: #0f2d56;
@@ -298,14 +300,14 @@ margin-right: auto;
 
 .border-line-three {
   height: 13px;
-  width: 15%;
+  width: 160px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-four {
   height: 13px;
-  width: 16%;
+  width: 173px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
@@ -322,11 +324,9 @@ margin-right: auto;
 }
 
 #self-portrait {
-  max-height: 450px;
+  width: 100%;
   object-fit: contain;
-  padding-left: 48px;
 }
-
 
 .story {
   padding: 50px;
@@ -1215,7 +1215,7 @@ footer img {
 
   .border-line {
     height: 13px;
-    width: 37%;
+    width: 224px;
     border-radius: 5px;
     background-color: #04ADBF;
     vertical-align: baseline;
@@ -1294,13 +1294,37 @@ footer img {
   }
 
   .main {
-    margin: 0 75px;
+    margin: 0 90px;
   }
 
   #biography {
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    text-align: left;
+    color: #0f2d56;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
     padding-top: 180px;
-    padding-left: 120px;
+    padding-left: 140px;
     padding-bottom: 50px;
+  }
+
+  #self-portrait {
+    max-height: 450px;
+    object-fit: contain;
+    padding-left: 32px;
+  }
+
+  .subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #0f2d56;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 10px;
   }
 
   .project-images:hover .overlay {
