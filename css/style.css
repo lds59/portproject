@@ -98,7 +98,7 @@ a {
 
 .border-line {
   height: 13px;
-  width: 46%;
+  width: 220px;
   border-radius: 5px;
   background-color: #04ADBF;
   vertical-align: baseline;
@@ -293,21 +293,21 @@ margin-right: auto;
 
 .border-line-two {
   height: 13px;
-  width: 42%;
+  width: 225px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-three {
   height: 13px;
-  width: 160px;
+  width: 187px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-four {
   height: 13px;
-  width: 173px;
+  width: 200px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
@@ -1215,7 +1215,7 @@ footer img {
 
   .border-line {
     height: 13px;
-    width: 224px;
+    width: 220px;
     border-radius: 5px;
     background-color: #04ADBF;
     vertical-align: baseline;
