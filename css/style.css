@@ -249,7 +249,7 @@ margin-right: auto;
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
-  
+
 }
 
 .first {
@@ -268,7 +268,7 @@ margin-right: auto;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
-  padding-left: 30px;
+  padding-left: 47px;
 }
 
 .third {
@@ -277,7 +277,7 @@ margin-right: auto;
     line-height: 1.75em;
     text-align: left;
     color: #0f2d56;
-    padding-left: 30px;
+    padding-left: 47px;
 }
 .heading-container {
   display: flex;
@@ -1113,6 +1113,16 @@ footer img {
     font-size: 15px;
   }
 
+  #logo {
+    width: 50px;
+    height: 80px;
+    padding: 20px 0 20px 20px;
+  }
+
+#self-portrait {
+  width: 330px;
+}
+
   #recent-work-header {
     padding-top: 470px;
     padding-bottom: 20px;
@@ -1130,6 +1140,34 @@ footer img {
 
   body section {
     width: 80%;
+  }
+
+  #logo {
+    width: 50px;
+    height: 80px;
+    padding: 20px 0 20px 20px;
+  }
+
+  #self-portrait {
+    width: 600px;
+  }
+
+  .subtitle {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .border-line-two{
+    width: 253px;
+  }
+
+  .first {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #biography {
+    padding-left: 80px;
   }
 
   #lisa {
@@ -1304,7 +1342,7 @@ footer img {
     font-style: normal;
     font-weight: bold;
     padding-top: 180px;
-    padding-left: 120px;
+    padding-left: 135px;
     padding-bottom: 50px;
   }
 
