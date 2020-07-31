@@ -19,7 +19,7 @@ li {
 
 .middle {
   height: 220px;
-}
+}p
 
 #logo {
   width: 50px;
@@ -249,7 +249,7 @@ margin-right: auto;
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
-  padding-top: 240px;
+  
 }
 
 .first {
@@ -268,7 +268,7 @@ margin-right: auto;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
-  padding-left: 45px;
+  padding-left: 30px;
 }
 
 .third {
@@ -277,7 +277,7 @@ margin-right: auto;
     line-height: 1.75em;
     text-align: left;
     color: #0f2d56;
-    padding-left: 45px;
+    padding-left: 30px;
 }
 .heading-container {
   display: flex;
@@ -290,24 +290,23 @@ margin-right: auto;
   padding-left: 45px;
 
 }
-
 .border-line-two {
   height: 13px;
-  width: 225px;
+  width: 195px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-three {
   height: 13px;
-  width: 187px;
+  width: 160px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
 
 .border-line-four {
   height: 13px;
-  width: 200px;
+  width: 175px;
   border-radius: 5px;
   background-color: #04ADBF;
 }
@@ -1305,7 +1304,7 @@ footer img {
     font-style: normal;
     font-weight: bold;
     padding-top: 180px;
-    padding-left: 140px;
+    padding-left: 120px;
     padding-bottom: 50px;
   }
 
@@ -1323,7 +1322,7 @@ footer img {
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
-    padding-top: 20px;
+
   }
 
   .project-images:hover .overlay {
