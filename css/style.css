@@ -15,6 +15,7 @@ li {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 10;
 }
 
 .middle {
@@ -259,7 +260,6 @@ margin-right: auto;
   text-align: left;
   color: #0f2d56;
   padding-left: 80px;
-  padding-bottom: 53px;
 }
 
 .second {
@@ -288,7 +288,7 @@ margin-right: auto;
   display: flex;
   flex-direction: column;
   padding-left: 45px;
-
+  width: 100%;
 }
 .border-line-two {
   height: 13px;
