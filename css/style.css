@@ -1463,6 +1463,11 @@ footer img {
     padding-right: 68px;
   }
 
+  .middle .subtitle-container {
+    padding-left: 120px;
+    margin-bottom: 30px;
+  }
+
   #petal-project-img {
     display: inline;
   }
