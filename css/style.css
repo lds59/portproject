@@ -99,7 +99,6 @@ a {
 
 .border-line {
   height: 13px;
-  width: 220px;
   border-radius: 5px;
   background-color: #04ADBF;
   vertical-align: baseline;
@@ -238,7 +237,6 @@ margin-right: auto;
   font-style: normal;
   font-weight: bold;
   padding-top: 130px;
-  padding-left: 50px;
   padding-bottom: 60px
 }
 
@@ -253,13 +251,21 @@ margin-right: auto;
 
 }
 
+.subtitle-container {
+  display: inline-block;
+  width: max-content;
+}
+
+.border-line {
+  width: 100%;
+}
+
 .first {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
-  padding-left: 80px;
 }
 
 .second {
@@ -268,7 +274,6 @@ margin-right: auto;
   line-height: 1.75em;
   text-align: left;
   color: #0f2d56;
-  padding-left: 47px;
 }
 
 .third {
@@ -277,53 +282,34 @@ margin-right: auto;
     line-height: 1.75em;
     text-align: left;
     color: #0f2d56;
-    padding-left: 47px;
 }
 .heading-container {
   display: flex;
   flex-direction: column;
-}
-
-.heading-container-two{
-  display: flex;
-  flex-direction: column;
-  padding-left: 45px;
+  padding-top: 40px;
   width: 100%;
 }
-.border-line-two {
-  height: 13px;
-  width: 195px;
-  border-radius: 5px;
-  background-color: #04ADBF;
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.border-line-three {
-  height: 13px;
-  width: 160px;
-  border-radius: 5px;
-  background-color: #04ADBF;
-}
-
-.border-line-four {
-  height: 13px;
-  width: 175px;
-  border-radius: 5px;
-  background-color: #04ADBF;
-}
 
 .main {
-  margin: 0 35px;
+  /* margin: 0 35px; */
 }
 
-#photo-container {
+
+#self-portrait {
+  object-fit: contain;
   position: relative;
   max-height: 650px;
   float: left;
   margin-bottom: 5px;
-}
-
-#self-portrait {
-  object-fit: contain;
+  width: 100%;
 }
 
 .story {
@@ -332,7 +318,7 @@ margin-right: auto;
 }
 
 .hero-introduction {
-  width: 100%;
+  margin: 0 70px;
 }
 
 
@@ -1054,7 +1040,7 @@ section ul {
 }
 
 body section {
-  width: 90%;
+  /* width: 90%; */
   text-align: center;
   margin: auto;
 }
@@ -1120,7 +1106,7 @@ footer img {
   }
 
 #self-portrait {
-  width: 330px;
+  width: 100%;
 }
 
   #recent-work-header {
@@ -1130,16 +1116,13 @@ footer img {
     font-size: 28px;
   }
 
-  .border-line {
-    width: 150px;
-  }
 }
 
 /* TABLETS */
 @media only screen and (min-width: 450px ) and (max-width: 1200px) {
 
   body section {
-    width: 80%;
+    /* width: 80%; */
   }
 
   #logo {
@@ -1154,20 +1137,10 @@ footer img {
 
   .subtitle {
     padding-top: 50px;
-    padding-left: 50px;
   }
 
-  .border-line-two{
-    width: 253px;
-  }
-
-  .first {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  #biography {
-    padding-left: 80px;
+  .flex-container {
+    flex-direction: column;
   }
 
   #lisa {
@@ -1185,14 +1158,10 @@ footer img {
   }
 
   #skyline {
-  max-width: 450px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-  .border-line {
-    width: 150px;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #preview-container {
@@ -1214,7 +1183,7 @@ footer img {
     justify-content: space-between;
   }
 
-  #photo-container {
+  #self-portrait {
     float: none;
   }
 
@@ -1227,7 +1196,7 @@ footer img {
 /* DESKTOP */
 @media only screen and (min-width: 1200px) {
   body section {
-    width: 45%;
+    /* width: 45%; */
   }
 
   #lisa {
@@ -1251,10 +1220,27 @@ footer img {
 
   .border-line {
     height: 13px;
-    width: 220px;
     border-radius: 5px;
     background-color: #04ADBF;
     vertical-align: baseline;
+  }
+
+  .flex-container .subtitle {
+    padding-top: 0px;
+  }
+
+  .flex-container .heading-container {
+    padding-top: 0px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .flex-container > div {
+    width: 30%;
   }
 
   #tagline {
@@ -1325,12 +1311,9 @@ footer img {
     float: left;
   }
 
-  #photo-container {
-    margin: 0 2em 1em 0;
-  }
 
   .main {
-    margin: 0 90px;
+    /* margin: 0 90px; */
   }
 
   #biography {
@@ -1342,14 +1325,13 @@ footer img {
     font-style: normal;
     font-weight: bold;
     padding-top: 180px;
-    padding-left: 135px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   #self-portrait {
-    max-height: 450px;
     object-fit: contain;
-    padding-left: 45px;
+    margin: 0 2em 1em 0;
+    width: 70%;
   }
 
   .subtitle {
@@ -1360,6 +1342,7 @@ footer img {
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
+    /* padding-top: 50px; */
 
   }
 
