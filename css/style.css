@@ -336,16 +336,17 @@ a {
 
 #available {
   font-family: 'Manrope', sans-serif;
-  font-size: 17px;
+  font-size: 0.75em;
   text-align: center;
   padding-bottom: 60px;
   color: #0f2d56;
+  margin-top: 60px;
 }
 
 .form-container {
   background-color: #04ADBF;
   height: 325px;
-  width: auto;
+  width: 90%;
   text-align: center;
   margin: auto;
 }
@@ -513,7 +514,7 @@ input[type=submit] {
 .problem-solution {
   background-color: #04ADBF;
   font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
+  font-size: 1em;
   color: white;
   padding: 35px;
   line-height: 1.25rem;
@@ -553,15 +554,8 @@ section ul {
   margin-top: 5px;
 }
 
-#research-paragraph-two {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  text-align: left;
-  color: #0f2d56;
-}
-
 #research-bullets li{
-  font-size: 12pt;
+  font-size: 1.15em;
   font-family: 'Manrope', sans-serif;
   list-style-type: disc;
   line-height: 1.25rem;
@@ -571,7 +565,7 @@ section ul {
 
 .content p {
   font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
+  font-size: 1.15em;
   text-align: center;
   color: #0f2d56;
 }
@@ -584,13 +578,6 @@ section ul {
   display: flex;
   justify-content: space-around;
   margin: 40px 0;
-}
-
-#user-personas-paragraph {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
 }
 
 .user-photos {
@@ -606,13 +593,6 @@ section ul {
   margin-bottom: 20px;
 }
 
-#user-stories-paragraph {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
-}
-
 #user-table {
   margin-top: 20px;
   text-align: center;
@@ -623,7 +603,7 @@ section ul {
 #user-table tr, #user-table th, #user-table td {
   border: 1px solid black;
   font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
+  font-size: 1.15em;
   padding: 10px;
   vertical-align: middle;
   color: #0f2d56;
@@ -648,13 +628,6 @@ section ul {
 
 #table-importance {
   font-weight: bold;
-}
-
-#user-flow-paragraph {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
 }
 
 #user-flow-image {
@@ -698,21 +671,6 @@ section ul {
   font-size: 37px;
 }
 
-.implementing-early-paragraph {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-}
-
-.implementing-early-paragraph-one {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
 .button {
   background-color: #F2B705;
   color: white;
@@ -750,6 +708,10 @@ h4 {
   margin-right: auto;
 }
 
+.guides {
+  width: 40%;
+}
+
 .execution-testing-box {
   background-color: #04ADBF;
   height: 100%;
@@ -769,13 +731,6 @@ h4 {
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   border-radius: 6px;
-}
-
-#execution-paragraph-two {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
 }
 
 .execution-button-two {
@@ -801,7 +756,7 @@ h4 {
 }
 
 #conclusion-bullets li {
-  font-size: 12pt;
+  font-size: 1.15em;
   font-family: 'Manrope', sans-serif;
   list-style-type: disc;
   color: #0f2d56;
@@ -813,7 +768,7 @@ h4 {
   color: #0f2d56;
 }
 
-.conclusion-box p,li {
+.conclusion-box li {
   text-align: left;
 }
 
@@ -1045,6 +1000,7 @@ footer img {
   .container {
     height: 350px;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .box {
