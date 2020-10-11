@@ -1,5 +1,4 @@
 body {
-
   margin: auto;
 }
 
@@ -134,10 +133,10 @@ a {
 }
 
 #skyline {
-max-width: 330px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  max-width: 330px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -164,6 +163,19 @@ margin-right: auto;
 
 #petal-project-img {
   display: none;
+}
+
+.content {
+  max-width: 80%;
+  margin: auto;
+}
+
+.content a {
+  width: 25%;
+}
+
+.content .subtitle-container {
+  margin: 50px 0px 20px 0px;
 }
 
 #vivrelivre {
@@ -456,7 +468,6 @@ input[type=submit] {
 .project-summary {
   display: flex;
   flex-direction: column;
-
 }
 
 .roles {
@@ -532,6 +543,10 @@ input[type=submit] {
   margin-bottom: 20px;
 }
 
+#solution {
+  margin-bottom: 50px;
+}
+
 .wrapper h4 {
   font-size: 24pt;
   font-family: 'Manrope', sans-serif;
@@ -551,15 +566,8 @@ section ul {
 #research {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin: 35px;
+  margin-bottom: 10px;
   text-align: center;
-  color: #0f2d56;
-}
-
-#research-paragraph {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  text-align: left;
   color: #0f2d56;
 }
 
@@ -582,46 +590,31 @@ section ul {
 #competitive-analysis {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin: 35px;
+  margin-bottom: 10px;
   color: #0f2d56;
 }
 
-#competitive-paragraph {
+.content p {
   font-family: 'Manrope', sans-serif;
   font-size: 12pt;
-  text-align: left;
+  text-align: center;
   color: #0f2d56;
 }
 
-#competitive-paragraph-two {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
+.content img {
+  margin: 15px 0px;
 }
 
 #competitor-logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 40px 0;
-}
-
-#competitive-button {
-  background-color: #F2B705;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-  border-radius: 6px;
-  margin: 40px auto;
-  display: block;
 }
 
 #user-personas {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin: 35px;
+  margin-bottom: 10px;
   color: #0f2d56;
 }
 
@@ -634,31 +627,21 @@ section ul {
 
 .user-photos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .user-photos img {
   margin-top: 20px;
-  width: 50%;
+  max-width: 50%;
+  min-width: 30%;
+  height: auto;
   margin-bottom: 20px;
-}
-
-.user-personas-button {
-  background-color: #F2B705;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-  border-radius: 6px;
-  margin: 20px auto;
-  display: block;
 }
 
 #user-stories {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin: 35px;
+  margin-bottom: 10px;
   display: block;
   color: #0f2d56;
 }
@@ -672,7 +655,9 @@ section ul {
 
 #user-table {
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
 }
 
 #user-table tr, #user-table th, #user-table td {
@@ -708,7 +693,7 @@ section ul {
 #user-flow {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin: 35px;
+  margin-bottom: 10px;
   color: #0f2d56;
 }
 
@@ -738,43 +723,26 @@ section ul {
 
 .wireframes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .wireframes img {
-  max-height: 280px;
+  max-height: 350px;
   margin-bottom: 20px;
-  width: 50%;
+  max-width: 50%;
 }
 
-#wf1 {
-  width: 95%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-#wf2 {
-  width: 95%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-#wf3 {
+.wf {
   width: 85%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+  margin: 40px auto !important;
+  border: 1px solid black;
 }
 
 #implementing-early {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  margin-bottom: 20px;
 }
 
 .implementing-early-paragraph {
@@ -792,39 +760,7 @@ section ul {
   color: #0f2d56;
 }
 
-.implementing-early-paragraph-two {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
-.implementing-early-paragraph-three {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
-.implementing-early-paragraph-four {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
-.implementing-early-paragraph-five {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
-.implementing-button {
+.button {
   background-color: #F2B705;
   color: white;
   padding: 15px 32px;
@@ -836,47 +772,22 @@ section ul {
   margin: 40px auto;
 }
 
-#mobile-wire {
-  width: 85%;
+.mobile-wire {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
-#brand-dev {
+.mobile-wire-single {
+  width: 80%;
+  max-width: 350px;
+  height: auto;
+}
+
+h4 {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-  padding-bottom: 25px;
-}
-
-#brand-dev-one {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  text-align: left;
-}
-
-#brand-dev-two {
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
   text-align: center;
-  margin: 40px;
-  text-align:left;
-  color: #0f2d56;
-}
-
-#brand-dev-three {
-  text-align: center;
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
-}
-
-#brand-dev-four {
-  text-align: center;
-  font-size: 12pt;
-  font-family: 'Manrope', sans-serif;
-  margin: 40px;
-  text-align: left;
-  color: #0f2d56;
 }
 
 .logosketch {
@@ -886,68 +797,15 @@ section ul {
   margin-right: auto;
 }
 
-.guides {
-  width: 75%;
-  margin: 15px 0;
-}
-
-.execution img {
-  width: 85%;
-  margin: 20px 0;
-}
-
 .execution-testing-box {
   background-color: #04ADBF;
   height: 100%;
   font-family: 'Manrope', sans-serif;
   color: white;
-  padding: 25px;
-}
-
-.execution-button {
-  display: block;
-  margin: 40px 0;
-}
-
-#new-hifi-mobile {
-  display: block;
-  margin: auto;
-  margin-bottom: 15px;
-  width: 32%;
-}
-
-#final-hifi-mobile {
-  width: 100%;
-  display: flex;
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-#final-hifi-mobile img {
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#execution-testing {
-  font-family: 'Manrope', sans-serif;
-  font-size: 37px;
 }
 
 #execution-paragraph {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
   margin-top: 15px;
-
-}
-
-#execution-paragraph-one {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
 }
 
 .execution-button {
@@ -967,13 +825,6 @@ section ul {
   color: #0f2d56;
 }
 
-#execution-paragraph-three {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
-}
-
 .execution-button-two {
   background-color: #F2B705;
   color: white;
@@ -984,20 +835,6 @@ section ul {
   border-radius: 6px;
 }
 
-#execution-paragraph-four {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
-}
-
-#execution-paragraph-five {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  text-align: left;
-  color: #0f2d56;
-}
-
 #upgrade1 {
   width: 30%;
 }
@@ -1006,19 +843,7 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
   text-align: center;
-  margin: 35px;
-  color: #0f2d56;
-}
-
-#conclusion-paragraph {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
-  color: #0f2d56;
-}
-
-#conclusion-paragraph-one {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12pt;
+  margin-bottom: 10px;
   color: #0f2d56;
 }
 
@@ -1043,11 +868,6 @@ body section {
   /* width: 90%; */
   text-align: center;
   margin: auto;
-}
-
-body h4 {
-  text-align: center;
-  font-size: 19px;
 }
 
 body p {
@@ -1269,10 +1089,6 @@ footer img {
     padding-top: 100px;
   }
 
-  .brand-dev {
-    min-height: 120px;
-  }
-
   .full-width-banner {
     min-height: 80px;
     width: 100%;
@@ -1284,7 +1100,11 @@ footer img {
   }
 
   .problem-solution {
-    width: 44.5%;
+    width: 42.5%;
+  }
+
+  .problem-solution p {
+    color: white;
   }
 
   .problem-solution-container {
