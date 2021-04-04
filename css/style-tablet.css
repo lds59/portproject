@@ -81,6 +81,11 @@
 
   .container {
     justify-content: space-between;
+    flex-direction: column;
+  }
+
+  #project-name {
+    padding-top: 40px;
   }
 
   .projects {
@@ -139,6 +144,18 @@
     color: #0f2d56;
     margin-top: 60px;
     width: 100%;
+  }
+
+  .box {
+    font-size: 0.75em;
+  }
+
+  #solution {
+    margin-bottom: 20px;
+  }
+
+  .wireframes {
+    flex-wrap: wrap;
   }
 
 }

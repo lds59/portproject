@@ -19,6 +19,14 @@
     padding-left: 0;
   }
 
+  .button {
+    width: 25%;
+  }
+
+  #buttons-container {
+    display: flex;
+  }
+
   #designer {
     font-family: 'Manrope', sans-serif;
     font-size: 30px;
@@ -90,7 +98,6 @@
   }
 
   .container {
-    height: 350px;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -284,5 +291,34 @@
     text-align: left;
   }
 
+  #competitor-logos {
+    width: 50%;
+    margin: 40px auto;
+  }
+
+  .user-photos {
+    justify-content: center;
+  }
+
+  #user-table {
+    font-size: 0.75em;
+  }
+
+  .wireframes {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .wireframes img {
+    margin-right: 5px;
+  }
+
+  .content img {
+    max-width: 500px;
+  }
+
+  .mobile-wire-single {
+    max-width: 330px !important;
+  }
 
 }
