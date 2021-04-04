@@ -230,7 +230,6 @@ a {
   color: #04ADBF;
 }
 
-/* about css code  */
 #biography {
   font-family: 'Manrope', sans-serif;
   font-size: 33px;
@@ -250,7 +249,6 @@ a {
   font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
-
 }
 
 .border-line {
@@ -275,11 +273,11 @@ a {
 }
 
 .third {
-    font-family: 'Manrope', sans-serif;
-    font-size: 16px;
-    line-height: 1.75em;
-    text-align: left;
-    color: #0f2d56;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 1.75em;
+  text-align: left;
+  color: #0f2d56;
 }
 .heading-container {
   display: flex;
@@ -288,17 +286,10 @@ a {
   width: 100%;
 }
 
-
-
 .flex-container {
   display: flex;
   flex-direction: column;
 }
-
-
-.main {
-  /* margin: 0 35px; */ }
-
 
 #self-portrait {
   object-fit: contain;
@@ -318,8 +309,6 @@ a {
   margin: 0 70px;
 }
 
-
-/* contact page css code  */
 #name {
   font-family: 'Manrope', sans-serif;
   font-size: 35px;
@@ -383,7 +372,6 @@ input[type=submit] {
   background-color: #F2B705;
 }
 
-/* project code css  */
 #preview {
   width: 100%;
   height: 100%;
@@ -766,7 +754,7 @@ h4 {
 }
 
 body section {
-  /* width: 90%; */ text-align: center;
+  text-align: center;
   margin: auto;
 }
 
@@ -812,7 +800,9 @@ footer img {
 }
 
 /* MEDIA QUERIES */
-/* SMALLER IPHONES */ @media only screen and (max-width: 375px) {
+/* SMALLER IPHONES */
+
+@media only screen and (max-width: 375px) {
   .topnav a {
     font-size: 15px; }
 

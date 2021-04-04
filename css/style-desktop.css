@@ -1,8 +1,5 @@
 /* DESKTOP */
 @media only screen and (min-width: 600px) {
-  body section {
-    /* width: 45%; */
-  }
 
   #lisa {
     font-family: 'Manrope', sans-serif;
@@ -106,11 +103,6 @@
     float: left;
   }
 
-
-  .main {
-    /* margin: 0 90px; */
-  }
-
   #biography {
     font-family: 'Manrope', sans-serif;
     font-size: 48px;
@@ -136,8 +128,6 @@
     font-variant: small-caps;
     font-style: normal;
     font-weight: bold;
-    /* padding-top: 50px; */
-
   }
 
   .project-images:hover .overlay {
