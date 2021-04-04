@@ -309,6 +309,10 @@ a {
   margin: 0 70px;
 }
 
+.hero-introduction p {
+  text-align: center;
+}
+
 #name {
   font-family: 'Manrope', sans-serif;
   font-size: 35px;

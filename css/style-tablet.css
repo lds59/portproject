@@ -5,6 +5,10 @@
     display: none;
   }
 
+  #biography {
+    padding-top: 130px;
+  }
+
   #skyline-mobile {
     display: inherit;
   }
@@ -21,7 +25,9 @@
   }
 
   #self-portrait {
-    width: 600px;
+    width: 100%;
+    float: none;
+    margin: 0;
   }
 
   .middle .subtitle {
@@ -30,6 +36,10 @@
 
   .flex-container {
     flex-direction: column;
+  }
+
+  .flex-container > div {
+    width: 100%;
   }
 
   #lisa {
@@ -73,10 +83,6 @@
     justify-content: space-between;
   }
 
-  #self-portrait {
-    float: none;
-  }
-
   .projects {
     flex-direction: column;
   }
@@ -87,6 +93,11 @@
 
   #footer {
     padding-top: 90px;
+  }
+
+  .heading-container {
+    margin-top: 50px;
+    padding: 0;
   }
 
 }
