@@ -141,10 +141,7 @@
   }
 
   .project-images:hover .overlay {
-    vertical-align: center;
     opacity: 1;
-    height: 273px;
-    transform: translate(0, -101%);
   }
 
   .project-images:hover #cloudservice {
@@ -189,7 +186,6 @@
 
   .project-images {
     width: 45%;
-    max-height: 266px;
   }
 
   .projects {

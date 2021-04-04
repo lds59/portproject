@@ -145,6 +145,7 @@ a {
 .project-images {
   max-width: 470px;
   width: 90%;
+  position: relative;
 }
 
 .project-images img {
@@ -195,16 +196,20 @@ a {
   opacity: 1;
   background-color: white;
   height: 100%;
-  vertical-align: center;
   opacity: 1;
   padding: 35px 35px 25px 25px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay li {
   background-color: #F2B705;
   border-radius: 10px;
   width: 190px;
-  margin: auto;
   font-size: 18px;
   font-family: 'Manrope', sans-serif;
   text-align: center;
