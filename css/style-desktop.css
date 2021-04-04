@@ -146,6 +146,7 @@
     opacity: 0;
     padding: 0;
     margin-bottom: 0;
+    height: 100%;
   }
 
   .overlay li {
@@ -176,6 +177,7 @@
 
   .project-images {
     width: 45%;
+    height: 100%;
   }
 
   .projects {
@@ -253,7 +255,7 @@
     margin-left: 0;
   }
 
-  .subtitle-container {
+  .heading-container .subtitle-container {
     margin: 0 0 20px 0;
   }
 
@@ -275,5 +277,18 @@
 
   .hero-introduction p {
     text-align: left;
+  }
+
+  #contact-form {
+    flex-direction: row;
+  }
+
+  #available {
+    width: 45%;
+    font-size: 3em;
+  }
+
+  .form-container {
+    width: 45%;
   }
 }

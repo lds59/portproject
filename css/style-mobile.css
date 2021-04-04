@@ -146,7 +146,7 @@ a {
   max-width: 470px;
   width: 90%;
   position: relative;
-  height: 190px !important;
+  height: 250px;
 }
 
 .project-images img {
@@ -157,10 +157,6 @@ a {
   max-width: 470px;
   width: 90%;
   max-height: 220px;
-}
-
-#petal-project-img {
-  display: none;
 }
 
 .content {
@@ -196,7 +192,6 @@ a {
 .overlay {
   opacity: 1;
   background-color: white;
-  height: 100%;
   opacity: 1;
   padding: 35px 35px 25px 25px;
   position: absolute;
@@ -329,10 +324,10 @@ a {
   padding-bottom: 60px;
   color: #0f2d56;
   margin-top: 60px;
+  width: 100%;
 }
 
 .form-container {
-  background-color: #04ADBF;
   height: 325px;
   width: 90%;
   text-align: center;
@@ -343,15 +338,17 @@ input::placeholder, textarea::placeholder {
   font-family: 'Manrope', sans-serif;
   font-size: 10pt;
   text-align: center;
-  color: #0f2d56;
+  color: white;
 }
 
 .form-container input {
   width: 100%;
-  height: 30px;
+  height: 50px;
   margin: 10px auto;
   border: 1px solid #cccccc;
   font-family: 'Manrope', sans-serif;
+  background-color: #04ADBF;
+  color: white;
 }
 
 .form-container textarea {
@@ -359,6 +356,8 @@ input::placeholder, textarea::placeholder {
   height: 115px;
   margin: 0 auto;
   border: 1px solid #cccccc;
+  background-color: #04ADBF;
+  padding-top: 25px;
 }
 
 .form-contents {
@@ -370,7 +369,7 @@ input::placeholder, textarea::placeholder {
 input, textarea {
   display: block;
   font-family: 'Manrope', sans-serif;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 input[type=submit] {
@@ -802,6 +801,11 @@ body p {
 
 footer img {
   margin: 10px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* MEDIA QUERIES */
