@@ -164,12 +164,20 @@ a {
   margin: auto;
 }
 
-.content a {
-  width: 25%;
+.content .subtitle-container {
+  margin: 50px auto 20px auto;
 }
 
-.content .subtitle-container {
-  margin: 50px 0px 20px 0px;
+.button {
+  background-color: #F2B705;
+  color: white;
+  padding: 15px 32px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  border-radius: 6px;
+  display: block;
+  text-align: center;
+  margin: 40px auto;
 }
 
 #vivrelivre {
@@ -425,28 +433,6 @@ input[type=submit] {
   color: #0f2d56;
 }
 
-#web-button {
-  background-color: #F2B705;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-  border-radius: 6px;
-  display: inline;
-}
-
-#mobile-button {
-  background-color: #F2B705;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-  border-radius: 6px;
-  display: inline;
-}
-
 .summary-right-side {
   float: right;
   text-align: center;
@@ -485,7 +471,7 @@ input[type=submit] {
   margin-top: 20px;
   color: white;
   font-family: 'Manrope', sans-serif;
-  font-size: 16px;
+  font-size: 0.75em;
   display: flex;
   align-items: center;
   padding: 3px;
@@ -570,11 +556,17 @@ section ul {
   font-family: 'Manrope', sans-serif;
   font-size: 1.15em;
   text-align: center;
+  padding-bottom: 10px;
   color: #0f2d56;
 }
 
 .content img {
   margin: 15px 0px;
+  max-width: 100%;
+}
+
+.problem-solution p {
+  color: white;
 }
 
 #competitor-logos {
@@ -601,6 +593,7 @@ section ul {
   text-align: center;
   margin: auto;
   margin-top: 40px;
+  font-size: 0.5em;
 }
 
 #user-table tr, #user-table th, #user-table td {
@@ -652,14 +645,20 @@ section ul {
 
 .wireframes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .wireframes img {
   max-height: 350px;
   margin-bottom: 20px;
-  max-width: 50%;
+  max-width: 48%;
+  margin-left: 1px;
+}
+
+#competitor-logos img {
+  width: 30%;
 }
 
 .wf {
@@ -672,18 +671,6 @@ section ul {
 #implementing-early {
   font-family: 'Manrope', sans-serif;
   font-size: 37px;
-}
-
-.button {
-  background-color: #F2B705;
-  color: white;
-  padding: 15px 32px;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-  border-radius: 6px;
-  display: block;
-  text-align: center;
-  margin: 40px auto;
 }
 
 .mobile-wire {
@@ -709,10 +696,6 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.guides {
-  width: 40%;
 }
 
 .execution-testing-box {
