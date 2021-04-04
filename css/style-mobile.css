@@ -146,6 +146,7 @@ a {
   max-width: 470px;
   width: 90%;
   position: relative;
+  height: 190px !important;
 }
 
 .project-images img {
