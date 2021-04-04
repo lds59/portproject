@@ -5,6 +5,19 @@
     /* width: 80%; */
   }
 
+  #skyline {
+    display: none;
+  }
+
+  #skyline-mobile {
+    display: inherit;
+  }
+
+  .middle .subtitle-container {
+    margin: auto;
+    padding: 0;
+  }
+
   #logo {
     width: 50px;
     height: 80px;
@@ -15,7 +28,7 @@
     width: 600px;
   }
 
-  .subtitle {
+  .middle .subtitle {
     padding-top: 50px;
   }
 
@@ -24,8 +37,9 @@
   }
 
   #lisa {
-    padding: 120px 26px 30px 90px;
     margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
   }
 
   #designer {
@@ -34,8 +48,9 @@
   }
 
   #tagline {
-    padding-left: 90px;
-    padding-right: 70px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
   }
 
   #skyline {
@@ -43,7 +58,7 @@
   }
 
   #skyline-mobile {
-    max-width: 450px;
+    max-width: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +79,14 @@
 
   #self-portrait {
     float: none;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .project-images {
+    margin-bottom: 35px;
   }
 
   #footer {
