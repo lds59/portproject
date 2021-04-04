@@ -247,6 +247,10 @@
     display: none;
   }
 
+  #recent-work {
+    margin-top: 50px;
+  }
+
   .middle {
     padding-top: 120px;
     display: flex;
