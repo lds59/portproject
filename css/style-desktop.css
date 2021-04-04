@@ -1,7 +1,7 @@
 /* DESKTOP */
 @media only screen and (min-width: 600px) {
 
-  #lisa {
+  .header {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -9,8 +9,14 @@
     color: #0f2d56;
     padding: 50px 26px 30px 120px;
     font-variant: small-caps;
-    text-align:left;
+    text-align: left;
     margin-bottom: 30px;
+  }
+
+  .hero-introduction .header {
+    padding-top: 180px;
+    padding-bottom: 40px;
+    padding-left: 0;
   }
 
   #designer {
@@ -101,18 +107,6 @@
   #preview-container {
     width: 45%;
     float: left;
-  }
-
-  #biography {
-    font-family: 'Manrope', sans-serif;
-    font-size: 48px;
-    text-align: left;
-    color: #0f2d56;
-    font-variant: small-caps;
-    font-style: normal;
-    font-weight: bold;
-    padding-top: 180px;
-    padding-bottom: 40px;
   }
 
   #self-portrait {
@@ -281,14 +275,14 @@
 
   #contact-form {
     flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding-left: 120px;
   }
 
   #available {
-    width: 45%;
-    font-size: 3em;
+    text-align: left;
   }
 
-  .form-container {
-    width: 45%;
-  }
+
 }
