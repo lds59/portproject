@@ -182,8 +182,9 @@
     font-size: 18px;
   }
 
-  .project-images img {
+  .project-images > img {
     height: 100%;
+    display: inline;
   }
 
   .project-images {
@@ -243,6 +244,7 @@
 
   #skyline {
     max-width: 650px;
+    display: initial;
   }
 
   #skyline-mobile {
@@ -250,19 +252,15 @@
   }
 
   .middle {
-    height: 450px;
     padding-top: 120px;
     display: flex;
     justify-content: flex-start;
-    padding-right: 68px;
+    margin: 0 0 20px 0;
   }
 
-  #petal-project-img {
-    display: inline;
-  }
-
-  #vivrelivre {
-    display: inline;
+  .middle .subtitle-container {
+    padding-left: 120px;
+    margin-left: 0;
   }
 
   #first {

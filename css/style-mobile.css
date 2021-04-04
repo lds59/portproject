@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  max-width: 1550px;
 }
 
 li {
@@ -8,6 +9,7 @@ li {
 
 .top-bar {
   width: 100%;
+  max-width: 1550px;
   height: 85px;
   background: #FFFFFF;
   display: flex;
@@ -101,8 +103,9 @@ a {
 .subtitle-container {
   text-align: center;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: block;
+  width: max-content;
 }
 
 .border-line {
@@ -142,6 +145,10 @@ a {
 .project-images {
   max-width: 470px;
   width: 90%;
+}
+
+.project-images img {
+  display: none;
 }
 
 .project-images-two {
@@ -239,14 +246,6 @@ a {
   font-style: normal;
   font-weight: bold;
 
-}
-
-.subtitle-container {
-  text-align: center;
-  margin: auto;
-  margin-bottom: 20px;
-  display: block;
-  width: max-content;
 }
 
 .border-line {
