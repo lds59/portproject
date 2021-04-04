@@ -15,11 +15,12 @@ li {
   align-items: center;
   position: fixed;
   z-index: 10;
+  top: 0;
 }
 
 .middle {
-  height: 220px;
-}p
+  margin: 85px 0 40px;
+}
 
 #logo {
   width: 50px;
@@ -81,11 +82,11 @@ a {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 33px;
+  font-size: 37px;
   color: #0f2d56;
-  padding: 120px 26px 30px 50px;
+  padding: 20px 50px 30px;
   font-variant: small-caps;
-  text-align:left;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -97,8 +98,7 @@ a {
   padding-bottom: 30px;
 }
 
-
-.recent-work .subtitle-container {
+.subtitle-container {
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
@@ -113,22 +113,24 @@ a {
 }
 
 #tagline {
-  text-align: left;
+  text-align: center;
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   line-height: 155%;
   color: #0f2d56;
-  padding-left: 50px;
-  padding-right: 31px;
+  padding: 0 50px;
+}
+
+#skyline-mobile {
+  width: 100%;
+  max-width: 330px;
+  display: block;
+  margin: auto;
 }
 
 #skyline {
-  max-width: 330px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
 }
-
 
 .projects {
   display: flex;
@@ -140,15 +142,12 @@ a {
 .project-images {
   max-width: 470px;
   width: 90%;
-  max-height: 220px;
-  /* box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78); */
 }
 
 .project-images-two {
   max-width: 470px;
   width: 90%;
   max-height: 220px;
-  /* box-shadow: 0px 0px 30px 10px rgb(102,102,102,0.78); */
 }
 
 #petal-project-img {
@@ -176,21 +175,13 @@ a {
   width: 100%;
 }
 
-#cloudservice {
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: #04ADBF;
-}
-
 .projects p {
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   line-height: 130%;
   text-align: center;
   color: #04ADBF;
-  margin: 10px;
+  margin: 15px;
 }
 
 .overlay {
@@ -199,8 +190,7 @@ a {
   height: 100%;
   vertical-align: center;
   opacity: 1;
-  padding: 35px;
-  margin-bottom: 20px;
+  padding: 35px 35px 25px 25px;
 }
 
 .overlay li {
@@ -220,7 +210,7 @@ a {
   padding: 20px 0;
 }
 
-#bookapp {
+.overlay h4 {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -229,7 +219,6 @@ a {
 }
 
 /* about css code  */
-
 #biography {
   font-family: 'Manrope', sans-serif;
   font-size: 33px;
@@ -253,7 +242,10 @@ a {
 }
 
 .subtitle-container {
-  display: inline-block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
   width: max-content;
 }
 
@@ -301,8 +293,7 @@ a {
 
 
 .main {
-  /* margin: 0 35px; */
-}
+  /* margin: 0 35px; */ }
 
 
 #self-portrait {
@@ -325,7 +316,6 @@ a {
 
 
 /* contact page css code  */
-
 #name {
   font-family: 'Manrope', sans-serif;
   font-size: 35px;
@@ -390,7 +380,6 @@ input[type=submit] {
 }
 
 /* project code css  */
-
 #preview {
   width: 100%;
   height: 100%;
@@ -697,7 +686,7 @@ section ul {
 
 h4 {
   font-family: 'Manrope', sans-serif;
-  font-size: 37px;
+  font-size: 33px;
   text-align: center;
 }
 
@@ -773,8 +762,7 @@ h4 {
 }
 
 body section {
-  /* width: 90%; */
-  text-align: center;
+  /* width: 90%; */ text-align: center;
   margin: auto;
 }
 
@@ -820,376 +808,15 @@ footer img {
 }
 
 /* MEDIA QUERIES */
-
-/* SMALLER IPHONES */
-@media only screen and (max-width: 375px) {
+/* SMALLER IPHONES */ @media only screen and (max-width: 375px) {
   .topnav a {
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   #logo {
-    width: 50px;
-    height: 80px;
-    padding: 20px 0 20px 20px;
-  }
+    width: 50px; height: 80px; padding: 20px 0 20px 20px; }
 
   #self-portrait {
     width: 100%;
   }
 
-}
-
-/* TABLETS */
-@media only screen and (min-width: 450px ) and (max-width: 1200px) {
-
-  body section {
-    /* width: 80%; */
-  }
-
-  #logo {
-    width: 50px;
-    height: 80px;
-    padding: 20px 0 20px 20px;
-  }
-
-  #self-portrait {
-    width: 600px;
-  }
-
-  .subtitle {
-    padding-top: 50px;
-  }
-
-  .flex-container {
-    flex-direction: column;
-  }
-
-  #lisa {
-    padding: 120px 26px 30px 90px;
-    margin-bottom: 30px;
-  }
-
-  #designer {
-    padding-left: 90px;
-    padding-bottom: 30px;
-  }
-
-  #tagline {
-    padding-left: 90px;
-    padding-right: 70px;
-  }
-
-  #skyline {
-    max-width: 450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #preview-container {
-    width: auto;
-  }
-
-  .topnav a {
-    font-size: 19px;
-    padding: 14px 10px;
-  }
-
-  .container {
-    justify-content: space-between;
-  }
-
-  #self-portrait {
-    float: none;
-  }
-
-  #footer {
-    padding-top: 90px;
-  }
-
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 1200px) {
-  body section {
-    /* width: 45%; */
-  }
-
-  #lisa {
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 58px;
-    color: #0f2d56;
-    padding: 50px 26px 30px 120px;
-    font-variant: small-caps;
-    text-align:left;
-    margin-bottom: 30px;
-  }
-
-  #designer {
-    font-family: 'Manrope', sans-serif;
-    font-size: 30px;
-    color: #0f2d56;
-    padding-left: 120px;
-    padding-bottom: 30px;
-  }
-
-  .border-line {
-    height: 13px;
-    border-radius: 5px;
-    background-color: #04ADBF;
-    vertical-align: baseline;
-  }
-
-  .flex-container .subtitle {
-    padding-top: 0px;
-  }
-
-  .flex-container .heading-container {
-    padding-top: 0px;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .flex-container > div {
-    width: 30%;
-  }
-
-  #tagline {
-    text-align: left;
-    font-family: 'Manrope', sans-serif;
-    font-size: 20px;
-    line-height: 155%;
-    color: #0f2d56;
-    padding-left: 120px;
-  }
-
-  #project-name {
-    font-size: 50px;
-    padding-top: 100px;
-  }
-
-  .full-width-banner {
-    min-height: 80px;
-    width: 100%;
-  }
-
-  .wrapper h4 {
-    font-size: 27pt;
-    padding-top: 20px;
-  }
-
-  .problem-solution {
-    width: 42.5%;
-  }
-
-  .problem-solution p {
-    color: white;
-  }
-
-  .problem-solution-container {
-    flex-direction: row;
-    padding-top: 100px;
-  }
-
-  .container {
-    height: 350px;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .box {
-    margin: 5px;
-    font-size: 16pt;
-  }
-
-  .summary-right-side {
-    width: 45%;
-  }
-
-  #preview-container {
-    width: 45%;
-    float: left;
-  }
-
-
-  .main {
-    /* margin: 0 90px; */
-  }
-
-  #biography {
-    font-family: 'Manrope', sans-serif;
-    font-size: 48px;
-    text-align: left;
-    color: #0f2d56;
-    font-variant: small-caps;
-    font-style: normal;
-    font-weight: bold;
-    padding-top: 180px;
-    padding-bottom: 40px;
-  }
-
-  #self-portrait {
-    object-fit: contain;
-    margin: 0 2em 1em 0;
-    width: 70%;
-  }
-
-  .subtitle {
-    font-family: 'Manrope', sans-serif;
-    text-align: left;
-    color: #0f2d56;
-    font-variant: small-caps;
-    font-style: normal;
-    font-weight: bold;
-    /* padding-top: 50px; */
-
-  }
-
-  .project-images:hover .overlay {
-    vertical-align: center;
-    opacity: 1;
-    height: 273px;
-    transform: translate(0, -101%);
-  }
-
-  .project-images:hover #cloudservice {
-    padding-top: 45px;
-  }
-
-  .project-images:hover #bookapp {
-    padding-top: 33px;
-  }
-
-  .overlay {
-    opacity: 0;
-    padding: 0;
-    margin-bottom: 0;
-  }
-
-  .overlay li {
-    padding-top: 0;
-  }
-
-  footer img {
-    margin: 15px;
-  }
-
-  footer h3 {
-    margin-right: 20px;
-  }
-
-  #footer-contents {
-    margin-right: 30px;
-  }
-
-  .projects p {
-    margin: 20px;
-    font-size: 18px;
-  }
-
-  .project-images img {
-    height: 100%;
-  }
-
-  .project-images {
-    width: 45%;
-    max-height: 266px;
-  }
-
-  .projects {
-    flex-direction: row;
-  }
-
-  nav {
-    display: flex;
-  }
-
-  li {
-    padding-top: 20px;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 20px;
-  }
-
-  nav a {
-    color: #04ADBF;
-  }
-
-  nav li, a:visited {
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    align-items: center;
-    margin: 30px;
-    padding-bottom: 16px;
-  }
-
-  nav li:hover {
-    border-bottom: 2px solid #F2B705;
-  }
-
-  #logo {
-    width: 60px;
-    padding: 30px 0 30px 40px;
-    height: 90px;
-  }
-
-  .top-bar {
-    height: 100px;
-  }
-
-  .topnav {
-    display: none;
-  }
-
-  #skyline {
-  max-width: 650px;
-  }
-
-  .middle {
-    height: 450px;
-    padding-top: 120px;
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 68px;
-  }
-
-  .middle .subtitle-container {
-    padding-left: 120px;
-    margin-bottom: 30px;
-  }
-
-  #petal-project-img {
-    display: inline;
-  }
-
-  #vivrelivre {
-    display: inline;
-  }
-
-  #first {
-    max-width: 1000px;
-  }
-
-  .full-width-banner p {
-    width: 45%;
-    margin: auto;
-  }
-
-  #user-flow-image {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }

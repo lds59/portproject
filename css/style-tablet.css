@@ -1,0 +1,73 @@
+/* TABLETS */
+@media only screen and (min-width: 450px ) and (max-width: 1200px) {
+
+  body section {
+    /* width: 80%; */
+  }
+
+  #logo {
+    width: 50px;
+    height: 80px;
+    padding: 20px 0 20px 20px;
+  }
+
+  #self-portrait {
+    width: 600px;
+  }
+
+  .subtitle {
+    padding-top: 50px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  #lisa {
+    padding: 120px 26px 30px 90px;
+    margin-bottom: 30px;
+  }
+
+  #designer {
+    padding-left: 90px;
+    padding-bottom: 30px;
+  }
+
+  #tagline {
+    padding-left: 90px;
+    padding-right: 70px;
+  }
+
+  #skyline {
+    display: none;
+  }
+
+  #skyline-mobile {
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #preview-container {
+    width: auto;
+  }
+
+  .topnav a {
+    font-size: 19px;
+    padding: 14px 10px;
+  }
+
+  .container {
+    justify-content: space-between;
+  }
+
+  #self-portrait {
+    float: none;
+  }
+
+  #footer {
+    padding-top: 90px;
+  }
+
+}

@@ -1,0 +1,283 @@
+/* DESKTOP */
+@media only screen and (min-width: 1200px) {
+  body section {
+    /* width: 45%; */
+  }
+
+  #lisa {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    color: #0f2d56;
+    padding: 50px 26px 30px 120px;
+    font-variant: small-caps;
+    text-align:left;
+    margin-bottom: 30px;
+  }
+
+  #designer {
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: #0f2d56;
+    padding-left: 120px;
+    padding-bottom: 30px;
+  }
+
+  .border-line {
+    height: 13px;
+    border-radius: 5px;
+    background-color: #04ADBF;
+    vertical-align: baseline;
+  }
+
+  .flex-container .subtitle {
+    padding-top: 0px;
+  }
+
+  .flex-container .heading-container {
+    padding-top: 0px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .flex-container > div {
+    width: 30%;
+  }
+
+  #tagline {
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 155%;
+    color: #0f2d56;
+    padding-left: 120px;
+  }
+
+  #project-name {
+    font-size: 50px;
+    padding-top: 100px;
+  }
+
+  .full-width-banner {
+    min-height: 80px;
+    width: 100%;
+  }
+
+  .wrapper h4 {
+    font-size: 27pt;
+    padding-top: 20px;
+  }
+
+  .problem-solution {
+    width: 42.5%;
+  }
+
+  .problem-solution p {
+    color: white;
+  }
+
+  .problem-solution-container {
+    flex-direction: row;
+    padding-top: 100px;
+  }
+
+  .container {
+    height: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .box {
+    margin: 5px;
+    font-size: 16pt;
+  }
+
+  .summary-right-side {
+    width: 45%;
+  }
+
+  #preview-container {
+    width: 45%;
+    float: left;
+  }
+
+
+  .main {
+    /* margin: 0 90px; */
+  }
+
+  #biography {
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    text-align: left;
+    color: #0f2d56;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 180px;
+    padding-bottom: 40px;
+  }
+
+  #self-portrait {
+    object-fit: contain;
+    margin: 0 2em 1em 0;
+    width: 70%;
+  }
+
+  .subtitle {
+    font-family: 'Manrope', sans-serif;
+    text-align: left;
+    color: #0f2d56;
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    /* padding-top: 50px; */
+
+  }
+
+  .project-images:hover .overlay {
+    vertical-align: center;
+    opacity: 1;
+    height: 273px;
+    transform: translate(0, -101%);
+  }
+
+  .project-images:hover #cloudservice {
+    padding-top: 45px;
+  }
+
+  .project-images:hover #bookapp {
+    padding-top: 33px;
+  }
+
+  .overlay {
+    opacity: 0;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .overlay li {
+    padding-top: 0;
+  }
+
+  footer img {
+    margin: 15px;
+  }
+
+  footer h3 {
+    margin-right: 20px;
+  }
+
+  #footer-contents {
+    margin-right: 30px;
+  }
+
+  .projects p {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  .project-images img {
+    height: 100%;
+  }
+
+  .project-images {
+    width: 45%;
+    max-height: 266px;
+  }
+
+  .projects {
+    flex-direction: row;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  li {
+    padding-top: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #04ADBF;
+  }
+
+  nav li, a:visited {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    align-items: center;
+    margin: 30px;
+    padding-bottom: 16px;
+  }
+
+  nav li:hover {
+    border-bottom: 2px solid #F2B705;
+  }
+
+  #logo {
+    width: 60px;
+    padding: 30px 0 30px 40px;
+    height: 90px;
+  }
+
+  .top-bar {
+    height: 100px;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  #skyline {
+    max-width: 650px;
+  }
+
+  #skyline-mobile {
+    display: none;
+  }
+
+  .middle {
+    height: 450px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 68px;
+  }
+
+  #petal-project-img {
+    display: inline;
+  }
+
+  #vivrelivre {
+    display: inline;
+  }
+
+  #first {
+    max-width: 1000px;
+  }
+
+  .full-width-banner p {
+    width: 45%;
+    margin: auto;
+  }
+
+  #user-flow-image {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
