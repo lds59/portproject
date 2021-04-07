@@ -25,6 +25,12 @@
 
   #buttons-container {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .summary-right-side .button {
+    width: auto;
   }
 
   #designer {
@@ -95,6 +101,10 @@
   .problem-solution-container {
     flex-direction: row;
     padding-top: 100px;
+  }
+
+  #solution {
+    margin-bottom: 20px;
   }
 
   .container {
@@ -319,6 +329,18 @@
 
   .mobile-wire-single {
     max-width: 330px !important;
+  }
+
+  .iterations {
+    max-width: 40%;
+  }
+
+  #style-guides > img.style-guide {
+    max-width: 30%;
+  }
+
+  #oblist {
+    padding-top: 180px;
   }
 
 }
