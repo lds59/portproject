@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style-mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/style-desktop.css">
+    <link rel="stylesheet" type="text/css" href="css/style-tablet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <title> Lisa Stanton | Design Portfolio </title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <a href="index.html"> <img id="logo" src="images/logo.jpg" alt="image of logo"> </a>
+
+      <!-- FULL SCREEN -->
+      <nav class="menu">
+        <ul>
+          <!-- <li><a href="index.html">Work</a></li> -->
+          <li><a href="about.html">About</a></li>
+          <li><a href="images/lisastantonresupdated.pdf" download>Resume</a></li>
+          <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- MOBILE -->
+      <div class="topnav">
+        <div id="navLinks">
+          <a href="about.html">About</a>
+          <a href="images/lsresume.pdf" download>Resume</a>
+          <a href="contactpage.html">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="content">
+
+      <div class="project-summary">
+        <div class="container">
+          <div class="preview-container">
+            <img class="vlpreview" src="images/hifishmock.jpg" alt="screenview">
+          </div>
+          <div class="summary-right-side">
+            <h3 id="project-name">Lunar New Year</h3>
+
+            <!-- Grid row -->
+            <!-- <div class="row"> -->
+
+              <!-- Grid column -->
+              <!-- <div class="col-lg-4 col-md-12 mb-4"> -->
+
+                <!--Modal: Name-->
+                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+
+                    <!--Content-->
+                    <div class="modal-content">
+
+                      <!--Body-->
+                      <div class="modal-body mb-0 p-0">
+
+                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                          <video controls width="100%">
+                            <source
+                              src="videos/lunarnewyeardemo.MP4"
+                              type="video/mp4"
+                            >
+                          </video>
+                        </div>
+
+                      </div>
+
+                      <!--Footer-->
+                      <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-mdb-dismiss="modal">Close</button>
+                      </div>
+
+                    </div>
+                    <!--/.Content-->
+
+                  </div>
+                </div>
+                <!--Modal: Name-->
+
+                <a class="button" alt="video" data-mdb-toggle="modal" data-mdb-target="#modal1">View Demo</a>
+
+              <!-- </div> -->
+              <!-- Grid column -->
+
+            <!-- </div> -->
+            <!-- Grid row -->
+
+            <div class="wrapper">
+              <h4>Roles</h4>
+              <ul class="roles">
+                <li class="box">User Research</li>
+                <li class="box">UX/UI Design</li>
+                <li class="box">Visual Design</li>
+                <li class="box">User Testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="problem-solution-container">
+          <div class="problem-solution">
+            <h4 id="problem">Problem</h4>
+            <p> Golf Fish Casino wanted to increase user retention and increase user engagement.
+            </p>
+          </div>
+          <div class="problem-solution">
+            <h4 id="solution">Solution</h4>
+            <p> Incorporate a quest within the casino slots which would celebrate Lunar New Year. Building this quest would not only introduce a new character, but would also target key performance indicators, such as user retention, increase user bets, increase the amount of % spinning for users, and increase SPSU (spins per spinning user).
+            </p>
+          </div>
+
+        </div>
+      </div>
+                      <!-- case study section  -->
+
+      <section class="user-personas-box">
+        <div class="subtitle-container">
+          <h4 class="subtitle"> User Personas </h4>
+            <div class="border-line"></div>
+                </div>
+                <p>
+                  When creating this feature, I wanted to take a look at our overall demographic to see if this quest would target each specific demographic.
+                </p>
+                    <div class="user-photos">
+                      <img src="images/demographics.jpg" alt="image of demographic">
+                      </div>
+
+                      <div class="user-photos">
+                        <img src="images/coremotivations.jpg" alt="image of core motivation">
+                        </div>
+                        </section>
+
+
+
+
+
+      <section class="user-flow-box">
+        <div class="subtitle-container">
+          <h4 class="subtitle"> User Flow </h4>
+          <div class="border-line"></div>
+        </div>
+        <p>
+        Next I started sketching out possible user flows to accomplish the goals that came out of the user stories. I observed the ways Goodreads and LibraryThing designed their flows and created a visual user flow that seemed the most straightforward.
+        </p>
+        <img id="user-flow-image" src="images/userflowtwo.jpg" alt="image of user flow">
+      </section>
+
+      <section class="full-width-banner">
+        <h4 id="implementing-early">Implementing &  Early Testing</h4>
+      </section>
+        <p>
+         With my user stories, research, and personas in place, I started to sketch out my mobile application.
+        </p>
+
+      <section>
+        <div class="wireframes">
+          <img src="images/eventpopup.jpg" alt="lunar new year popup">
+          <img src="images/slotrat.jpeg" alt="slot with widget">
+          <img src="images/nodefirst.jpeg" alt="first node">
+          <img src="images/passrat.jpeg" alt="collect state">
+        </div>
+
+        <a class="button" href="https://xd.adobe.com/view/48056a21-d9cd-4b67-ba45-86130f63cda2-1d56/?fullscreen">View Prototype</a>
+      </section>
+
+      <section class="full-width-banner brand-dev">
+        <h4 id="brand-dev">Brand Development</h4>
+      </section>
+      <p>
+        Coming up with a concept for Lunar New Year, that not only fit our underwater theme, but also fit in with the brand was a iterative process. There were multiple themes and concepts needed to be covered in this quest. First, was brainstorming with the art team to plan out the progression of the torii gate as the player greated each Zodiac animal.
+      </p>
+      <img class="guides" src="images/toriigate.jpg" alt="Toriiprogression">
+
+      <section>
+        <p>
+          Then, once the torii gate was sketched out, it was time to concept out the new koifish character for this quest. There were multiple color variations that were concepted with this character.
+        </p>
+        <div>
+          <img class="logosketch wf" src="images/koifish.jpg" alt="koifish sketches">
+        </div>
+
+        <p>
+          TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+        </p>
+
+        <img class="guides" src="images/lunarfont.jpg" alt="lunar font styles">
+
+        <p id="brand-dev-four">
+            TEXT TEXT TEXT  TEXT  TEXT TEXT
+        </p>
+
+        <img class="guides" src="images/billboardmock.jpg" alt="color">
+      </section>
+
+      <section class="execution-testing-box full-width-banner">
+        <h4 id="execution-testing">Execution & Testing</h4>
+      </section>
+      <p>
+        Once the final brand art concepts were polished and put together, it was now time to add a more realistic feel to the quest and build a high fidlity mockup into the game.
+      </p>
+
+      <section class="execution">
+        <img src="images/lunmock.jpg" alt="lunar initial mockup">
+        <p>
+          With my high fidelity mockups,
+        </p>
+        <img src="images/lunarhimock.jpg" alt="lunar initial mockup two">
+
+          TEXT TEXT TEXT TEXT TEXT
+        </p>
+        <img src="images/billboardfinalmock.jpg" alt="final lunar mock prototype">
+        <p>
+        TEXT TEXT TEXT
+        </p>
+
+        <img src="images/hifishmockup.jpg" alt="final lunar mock prototype">
+        <img src="images/finallunarmock.jpg" alt="final lunar mock prototype">
+        <a class="button" href="">View Demo</a>
+      </section>
+
+      <section class="research-box">
+        <div class="subtitle-container">
+          <h4 class="subtitle">Research</h4>
+          <div class="border-line"></div>
+        </div>
+        <p>
+          My research goal was to understand the user's reading habits, such as how they discover and track books they like. Additionally, I wanted to figure out which features users deemed the most important when creating this mobile application. Once I sent this out to friends and family and received feedback, I noticed a few things:
+        </p>
+        <ul id="research-bullets">
+          <li>
+            First, four participants responded that they actually held onto the books that they finished reading - an option that was not on the survey itself.
+          </li>
+          <li>
+            Second, when it came to features that could be incorporated into the app, many users were against the idea of adding forums to discuss books with friends. Quite a few were against virtual book clubs as well.
+          </li> </br>
+          <p>With this information in mind, I started thinking of a way to create a platform that could provide not only user friendliness or simplicity, but also a place to stay connected with other book lovers and sell preloved books to other users.
+          </p>
+        </ul>
+      </section>
+
+      <section class="conclusion-box">
+        <div class="subtitle-container">
+          <h4 class="subtitle"> Conclusion </h4>
+          <div class="border-line"></div>
+        </div>
+        <p>
+          In conclusion, I learned quite a bit from this project. If I were to start again from the beginning, I would add a few more questions on my user survey about the sustainability aspect of my app. For example, I would ask what users thought about having the option of providing their own shipping boxes when selling a book, if collaborating with an eco-friendly shipping company would be a good fit, if providing post-consumer packaging would be beneficial, or if all three of these options together would be most desirable. I would also do more research on different eco-friendly shipping companies and shipping costs.
+        </p>
+        <br />
+        <p>
+          Thank you for taking the time to read my case study!
+        </p>
+      </section>
+
+    </div> <!-- content -->
+
+    <footer id="footer">
+      <div id="footer-contents">
+        <a href="https://500px.com/lisvmonet"><img src="images/500px.svg" alt="500px"></a>
+        <a href="https://dribbble.com/lisvstvn"><img src="images/dribbble.svg" alt="dribbble"></a>
+        <a href="https://www.linkedin.com/in/lisastan/"><img src="images/linkedin.svg" alt="linkedin"></a>
+      </div>
+      <div class="made-by">
+        <p id="cc">Creatively cultivated by Lisa</p>
+      </div>
+    </footer>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"
+    ></script>
+
+    <script src="javascript/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163091231-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-163091231-1');
+    </script>
+  </body>
+</html>

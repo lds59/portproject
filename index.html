@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style-tablet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
     <title> Lisa Stanton | Design Portfolio </title>
   </head>
@@ -59,7 +61,18 @@
         <div class="border-line"></div>
       </div>
 
-      <div class="projects">
+      <div class="owl-carousel">
+        <div class="project-images">
+          <img src="images/lunarnewyearmockup.jpg" alt="image of Lunar New Year">
+          <div class="overlay">
+            <h4>Lunar New Year Quest</h4>
+            <p>
+            Golf Fish Casino wanted to incorporate a Quest to introduce a new character, target user retention, increase user bets, increase the amount of % spinning for our users, and increase SPSU.
+            </p>
+            <li><a href="lunarnewyear.html" target=“_blank”>COMING SOON</a></li>
+          </div>
+        </div>
+
         <div class="project-images">
           <img src="images/petalmockup.jpg" alt="image of project">
           <div class="overlay">
@@ -102,6 +115,20 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-163091231-1');
+    </script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          stagePadding: 50,
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 2500,
+          autoplayHoverPause: true
+        });
+      });
     </script>
 
   </body>
