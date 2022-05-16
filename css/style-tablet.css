@@ -157,6 +157,8 @@
 
   .wireframes {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   img.vlpreview {
@@ -166,6 +168,11 @@
   .modal-backdrop {
     width: 100% !important;
     height: 100% !important;
+  }
+  
+  img.full-width {
+    width: 100%;
+    max-width: 100%;
   }
 
 }

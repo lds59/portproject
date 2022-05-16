@@ -54,7 +54,7 @@
 
     </div>
 
-    <div class="content">
+    <div id="lunarnewyear" class="content">
 
       <div class="project-summary">
         <div class="container">
@@ -64,60 +64,48 @@
           <div class="summary-right-side">
             <h3 id="project-name">Lunar New Year</h3>
 
-            <!-- Grid row -->
-            <!-- <div class="row"> -->
+            <!--Modal: Name-->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
 
-              <!-- Grid column -->
-              <!-- <div class="col-lg-4 col-md-12 mb-4"> -->
+                <!--Content-->
+                <div class="modal-content">
 
-                <!--Modal: Name-->
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                  <!--Body-->
+                  <div class="modal-body mb-0 p-0">
 
-                    <!--Content-->
-                    <div class="modal-content">
-
-                      <!--Body-->
-                      <div class="modal-body mb-0 p-0">
-
-                        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                          <video controls width="100%">
-                            <source
-                              src="videos/lunarnewyeardemo.MP4"
-                              type="video/mp4"
-                            >
-                          </video>
-                        </div>
-
-                      </div>
-
-                      <!--Footer-->
-                      <div class="modal-footer justify-content-center">
-                        <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-mdb-dismiss="modal">Close</button>
-                      </div>
-
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                      <video controls width="100%">
+                        <source
+                          src="videos/lunarnewyeardemo.MP4"
+                          type="video/mp4"
+                        >
+                      </video>
                     </div>
-                    <!--/.Content-->
 
                   </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-mdb-dismiss="modal">Close</button>
+                  </div>
+
                 </div>
-                <!--Modal: Name-->
+                <!--/.Content-->
 
-                <a class="button" alt="video" data-mdb-toggle="modal" data-mdb-target="#modal1">View Demo</a>
+              </div>
+            </div>
+            <!--Modal: Name-->
 
-              <!-- </div> -->
-              <!-- Grid column -->
-
-            <!-- </div> -->
-            <!-- Grid row -->
+            <a class="button" alt="video" data-mdb-toggle="modal" data-mdb-target="#modal1">View Demo</a>
 
             <div class="wrapper">
               <h4>Roles</h4>
               <ul class="roles">
-                <li class="box">User Research</li>
+                <li class="box">Player Research</li>
                 <li class="box">UX/UI Design</li>
                 <li class="box">Visual Design</li>
-                <li class="box">User Testing</li>
+                <li class="box">Player Testing</li>
               </ul>
             </div>
           </div>
@@ -125,12 +113,12 @@
         <div class="problem-solution-container">
           <div class="problem-solution">
             <h4 id="problem">Problem</h4>
-            <p> Golf Fish Casino wanted to increase user retention and increase user engagement.
+            <p> Gold Fish Casino rings the most engaging and thrilling casino and casual mobile social games to audiences wide world. However, for the past couple of months they has been experiencing decreased player retention and decreased player engagement.
             </p>
           </div>
           <div class="problem-solution">
             <h4 id="solution">Solution</h4>
-            <p> Incorporate a quest within the casino slots which would celebrate Lunar New Year. Building this quest would not only introduce a new character, but would also target key performance indicators, such as user retention, increase user bets, increase the amount of % spinning for users, and increase SPSU (spins per spinning user).
+            <p>Potentially incorporating an quest within the casino slots which would celebrate Lunar New Year would not only introduce a new character, but would also target key performance indicators, such as player retention, increase player bets, increase the amount of % spinning for player, and increase SPSU (spins per spinning player).
             </p>
           </div>
 
@@ -144,15 +132,20 @@
             <div class="border-line"></div>
                 </div>
                 <p>
-                  When creating this feature, I wanted to take a look at our overall demographic to see if this quest would target each specific demographic.
+                  When creating this quest, I wanted to take a look at the player personas/ demographics. These were crucial to understanding why player activity was down and how this quest can increase those two factors.
                 </p>
                     <div class="user-photos">
                       <img src="images/demographics.jpg" alt="image of demographic">
                       </div>
 
+                      <p>
+                        Additionally, taking a look at each players core motivation will also aide in which specific demographic this quest will target. For example, with this quest the main core motivation targeted will most likely be Profit. Profit core motivation gives the user a feeling of gaining money, and wanting to get rich and win prizes. With that being said, Mike Money will get a high take away than say Sensation Serena who has a core motivation of Glory. Glory core motivation gives the player a feeling of importance and glamor. The player enjoys challenges and wanting others to envy their gaming abilities and success.
+                      </p>
+
                       <div class="user-photos">
                         <img src="images/coremotivations.jpg" alt="image of core motivation">
                         </div>
+
                         </section>
 
 
@@ -165,40 +158,22 @@
           <div class="border-line"></div>
         </div>
         <p>
-        Next I started sketching out possible user flows to accomplish the goals that came out of the user stories. I observed the ways Goodreads and LibraryThing designed their flows and created a visual user flow that seemed the most straightforward.
+        Next, I mapped out a simple player flow that showcased the first time player experience. Meaning, right when the player opens the app and enters the lobby a popup for the Lunar New Quest will activate prompting the user to enter a slot, to the player entering a slot and spinning, to completing a task and completing a node etc.
         </p>
         <img id="user-flow-image" src="images/userflowtwo.jpg" alt="image of user flow">
-      </section>
-
-      <section class="full-width-banner">
-        <h4 id="implementing-early">Implementing &  Early Testing</h4>
-      </section>
-        <p>
-         With my user stories, research, and personas in place, I started to sketch out my mobile application.
-        </p>
-
-      <section>
-        <div class="wireframes">
-          <img src="images/eventpopup.jpg" alt="lunar new year popup">
-          <img src="images/slotrat.jpeg" alt="slot with widget">
-          <img src="images/nodefirst.jpeg" alt="first node">
-          <img src="images/passrat.jpeg" alt="collect state">
-        </div>
-
-        <a class="button" href="https://xd.adobe.com/view/48056a21-d9cd-4b67-ba45-86130f63cda2-1d56/?fullscreen">View Prototype</a>
       </section>
 
       <section class="full-width-banner brand-dev">
         <h4 id="brand-dev">Brand Development</h4>
       </section>
       <p>
-        Coming up with a concept for Lunar New Year, that not only fit our underwater theme, but also fit in with the brand was a iterative process. There were multiple themes and concepts needed to be covered in this quest. First, was brainstorming with the art team to plan out the progression of the torii gate as the player greated each Zodiac animal.
+        Pivoting away from primary research. It was time to collaborate with the art team to come up with a concept for Lunar New Year. There were multiple themes and concepts needed to be covered in this quest. First, was brainstorming with to plan out the progression of the torii gate as the player greated each Zodiac animal.
       </p>
-      <img class="guides" src="images/toriigate.jpg" alt="Toriiprogression">
+      <img class="full-width" src="images/toriigate.jpg" alt="Toriiprogression">
 
       <section>
         <p>
-          Then, once the torii gate was sketched out, it was time to concept out the new koifish character for this quest. There were multiple color variations that were concepted with this character.
+          Then, once the torii gate was sketched out, it was time to concept out the new koifish character for this quest. There were multiple color variations that were concepted with this character, but after a round of usability testing within different team departments, koifish number 5 was the better fit.
         </p>
         <div>
           <img class="logosketch wf" src="images/koifish.jpg" alt="koifish sketches">
@@ -211,10 +186,30 @@
         <img class="guides" src="images/lunarfont.jpg" alt="lunar font styles">
 
         <p id="brand-dev-four">
-            TEXT TEXT TEXT  TEXT  TEXT TEXT
+          TEXT TEXT TEXT  TEXT  TEXT TEXT
         </p>
 
-        <img class="guides" src="images/billboardmock.jpg" alt="color">
+
+      <section class="full-width-banner">
+        <h4 id="implementing-early">Implementing &  Early Testing</h4>
+      </section>
+        <p>
+         After analyzing demographics, core motivators, and mapping out a user flow it was time to create a low fidelity mockup of the quest.
+        </p>
+
+      <section>
+        <div class="wireframes">
+          <img src="images/eventpopup.jpg" alt="lunar new year popup">
+          <div>
+            <img src="images/slotrat.jpg" alt="slot with widget">
+            <img src="images/nodefirst.jpg" alt="first node">
+            <img src="images/passrat.jpg" alt="collect state">
+          </div>
+
+          <img class="guides" src="images/billboardmock.jpg" alt="color">
+        </div>
+
+        <a class="button" href="https://xd.adobe.com/view/48056a21-d9cd-4b67-ba45-86130f63cda2-1d56/?fullscreen">View Prototype</a>
       </section>
 
       <section class="execution-testing-box full-width-banner">
@@ -233,14 +228,47 @@
 
           TEXT TEXT TEXT TEXT TEXT
         </p>
-        <img src="images/billboardfinalmock.jpg" alt="final lunar mock prototype">
+        <img style="maxHeight: 300px" src="images/billboardfinalmock.jpg" alt="final lunar mock prototype">
         <p>
         TEXT TEXT TEXT
         </p>
 
-        <img src="images/hifishmockup.jpg" alt="final lunar mock prototype">
+        <img src="images/hifishmock.jpg" alt="final lunar mock prototype">
         <img src="images/finallunarmock.jpg" alt="final lunar mock prototype">
-        <a class="button" href="">View Demo</a>
+        <!--Modal: Name-->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+
+            <!--Content-->
+            <div class="modal-content">
+
+              <!--Body-->
+              <div class="modal-body mb-0 p-0">
+
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <video controls width="100%">
+                    <source
+                      src="videos/lunarnewyeardemo.MP4"
+                      type="video/mp4"
+                    >
+                  </video>
+                </div>
+
+              </div>
+
+              <!--Footer-->
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-mdb-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+            <!--/.Content-->
+
+          </div>
+        </div>
+        <!--Modal: Name-->
+
+        <a class="button" alt="video" data-mdb-toggle="modal" data-mdb-target="#modal1">View Demo</a>
       </section>
 
       <section class="research-box">
@@ -248,19 +276,8 @@
           <h4 class="subtitle">Research</h4>
           <div class="border-line"></div>
         </div>
-        <p>
-          My research goal was to understand the user's reading habits, such as how they discover and track books they like. Additionally, I wanted to figure out which features users deemed the most important when creating this mobile application. Once I sent this out to friends and family and received feedback, I noticed a few things:
-        </p>
-        <ul id="research-bullets">
-          <li>
-            First, four participants responded that they actually held onto the books that they finished reading - an option that was not on the survey itself.
-          </li>
-          <li>
-            Second, when it came to features that could be incorporated into the app, many users were against the idea of adding forums to discuss books with friends. Quite a few were against virtual book clubs as well.
-          </li> </br>
-          <p>With this information in mind, I started thinking of a way to create a platform that could provide not only user friendliness or simplicity, but also a place to stay connected with other book lovers and sell preloved books to other users.
-          </p>
-        </ul>
+        <div><img class="border" src="images/summarystats.jpg" alt="summary status"></div>
+        <div><img class="border" src="images/nodecompletion.jpg" alt="node completion"></div>
       </section>
 
       <section class="conclusion-box">

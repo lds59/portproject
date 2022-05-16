@@ -468,7 +468,7 @@ img.vlpreview {
   background-color: #04ADBF;
   height: 60px;
   max-width: 110px;
-  width: 18%;
+  width: 22%;
   margin: 2px;
   margin-top: 20px;
   color: white;
@@ -645,11 +645,18 @@ section ul {
   box-sizing: border-box;
 }
 
+img.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
 .wireframes {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wireframes img {
@@ -689,7 +696,7 @@ section ul {
 
 h4 {
   font-family: 'Manrope', sans-serif;
-  font-size: 33px;
+  font-size: 33px !important;
   text-align: center;
 }
 
@@ -815,10 +822,17 @@ footer img {
   margin-right: 5px;
 }
 
-
 .modal-backdrop {
   width: 100% !important;
   height: 100% !important;
+}
+
+#lunarnewyear .execution img {
+  max-height: 400px;
+}
+
+img.border {
+  border: 1px solid lightgray;
 }
 
 /* MEDIA QUERIES */
