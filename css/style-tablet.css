@@ -102,7 +102,23 @@
   }
 
   .overlay {
-    opacity: 1;
+    opacity: 0;
+    padding: 30px;
+  }
+
+  .overlay h4 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px !important;
+    color: #04ADBF;
+  }
+
+  .overlay a {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    padding: 20px 0;
   }
 
   #footer {
@@ -169,7 +185,7 @@
     width: 100% !important;
     height: 100% !important;
   }
-  
+
   img.full-width {
     width: 100%;
     max-width: 100%;

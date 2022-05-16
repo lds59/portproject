@@ -141,10 +141,6 @@
     font-weight: bold;
   }
 
-  .project-images:hover .overlay {
-    opacity: 1;
-  }
-
   .project-images:hover #cloudservice {
     padding-top: 45px;
   }
@@ -155,13 +151,28 @@
 
   .overlay {
     opacity: 0;
-    /* padding: 0; */
+    padding: 30px;
     margin-bottom: 0;
     height: 100%;
   }
 
+  .overlay a {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
   .overlay li {
     padding-top: 0;
+  }
+
+  .overlay h4 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px !important;
+    color: #04ADBF;
   }
 
   footer img {
@@ -255,10 +266,6 @@
     margin-top: 50px;
   }
 
-  .recent-work .subtitle-container {
-    margin-bottom: 80px;
-  }
-
   .middle {
     padding-top: 120px;
     display: flex;
@@ -334,6 +341,11 @@
     max-width: 500px;
   }
 
+  .user-photos-single img {
+    max-width: 75%;
+    margin-bottom: 20px;
+  }
+
   img.full-width {
     width: 100%;
     max-width: 100%;
@@ -362,6 +374,10 @@
   .modal-backdrop {
     width: 100% !important;
     height: 100% !important;
+  }
+
+  img.eighty {
+    max-width: 80%;
   }
 
 }
