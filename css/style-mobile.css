@@ -851,6 +851,10 @@ img.eighty {
   max-width: 80%;
 }
 
+#lunarnewyear .guides {
+  margin-bottom: 20px;
+}
+
 
 /* MEDIA QUERIES */
 /* SMALLER IPHONES */
