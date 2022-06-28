@@ -35,7 +35,7 @@ li {
   overflow: hidden;
   background-color: #FFFFFF;
   position: relative;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 .topnav #navLinks {
@@ -82,19 +82,18 @@ a {
 }
 
 .header {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 37px;
   color: #0f2d56;
   padding: 20px 50px 30px;
-  font-variant: small-caps;
   text-align: center;
   margin-bottom: 30px;
 }
 
 #designer {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 20px;
   color: #0f2d56;
   padding-left: 50px;
@@ -118,7 +117,7 @@ a {
 
 #tagline {
   text-align: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 15px !important;
   line-height: 155%;
   color: #0f2d56;
@@ -167,7 +166,7 @@ a {
   background-color: #F2B705;
   color: white;
   padding: 15px 32px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 15px;
   border-radius: 6px;
   display: block;
@@ -184,7 +183,7 @@ a {
 }
 
 .projects p {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 15px;
   line-height: 130%;
   text-align: center;
@@ -212,7 +211,7 @@ a {
   border-radius: 10px;
   width: 190px;
   font-size: 18px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   text-align: center;
 }
 
@@ -224,7 +223,7 @@ a {
 }
 
 .overlay h4 {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px !important;
@@ -237,11 +236,10 @@ a {
 
 
 #biography {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 33px;
   text-align: left;
   color: #0f2d56;
-  font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
   padding-top: 130px;
@@ -249,10 +247,9 @@ a {
 }
 
 .subtitle {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   text-align: left;
   color: #0f2d56;
-  font-variant: small-caps;
   font-style: normal;
   font-weight: bold;
 }
@@ -263,7 +260,7 @@ a {
 }
 
 .first {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   text-align: left;
@@ -271,7 +268,7 @@ a {
 }
 
 .second {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   text-align: left;
@@ -279,7 +276,7 @@ a {
 }
 
 .third {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   text-align: left;
@@ -326,7 +323,7 @@ a {
   }
 
 #name {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 35px;
   text-align: center;
   padding: 120px 0 30px 0;
@@ -334,7 +331,7 @@ a {
 }
 
 #available {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 1.5em;
   text-align: center;
   padding: 10px;
@@ -357,7 +354,7 @@ a {
 }
 
 input::placeholder, textarea::placeholder {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 10pt;
   text-align: center;
   color: white;
@@ -367,7 +364,7 @@ input::placeholder, textarea::placeholder {
   width: 100%;
   margin: 10px auto;
   border: 1px solid #cccccc;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   background-color: #04ADBF;
   padding: 25px;
   color: white;
@@ -393,7 +390,7 @@ input::placeholder, textarea::placeholder {
 
 input, textarea {
   display: block;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   border-radius: 10px;
 }
 
@@ -429,7 +426,7 @@ img.vlpreview {
 }
 
 #project-name {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 32px;
   font-weight: bold;
   margin: 20px 0;
@@ -473,7 +470,7 @@ img.vlpreview {
   margin: 2px;
   margin-top: 20px;
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 0.75em;
   display: flex;
   align-items: center;
@@ -505,7 +502,7 @@ img.vlpreview {
 
 .problem-solution {
   background-color: #04ADBF;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 1em;
   color: white;
   padding: 35px;
@@ -521,7 +518,7 @@ img.vlpreview {
 
 #problem, #solution  {
   font-size: 30pt;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -532,7 +529,7 @@ img.vlpreview {
 
 .wrapper h4 {
   font-size: 24pt;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #0f2d56;
@@ -548,7 +545,7 @@ section ul {
 
 #research-bullets li{
   font-size: 1.15em;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   list-style-type: disc;
   line-height: 1.25rem;
   text-align: left;
@@ -556,7 +553,7 @@ section ul {
 }
 
 .content p {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 1.15em;
   text-align: center;
   padding-bottom: 10px;
@@ -605,7 +602,7 @@ section ul {
 
 #user-table tr, #user-table th, #user-table td {
   border: 1px solid black;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 1.15em;
   padding: 10px;
   vertical-align: middle;
@@ -641,7 +638,7 @@ section ul {
 .full-width-banner {
   background-color: #04ADBF;
   height: 100%;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   color: white;
   padding: 25px;
   width: 100%;
@@ -687,7 +684,7 @@ img.wireframes-single {
 }
 
 #implementing-early {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 37px;
 }
 
@@ -703,7 +700,7 @@ img.wireframes-single {
 }
 
 h4 {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 33px !important;
   text-align: center;
 }
@@ -718,7 +715,7 @@ h4 {
 .execution-testing-box {
   background-color: #04ADBF;
   height: 100%;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   color: white;
 }
 
@@ -731,7 +728,7 @@ h4 {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 15px;
   border-radius: 6px;
 }
@@ -741,7 +738,7 @@ h4 {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 15px;
   border-radius: 6px;
 }
@@ -751,7 +748,7 @@ h4 {
 }
 
 #conclusion {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 37px;
   text-align: center;
   margin-bottom: 10px;
@@ -760,7 +757,7 @@ h4 {
 
 #conclusion-bullets li {
   font-size: 1.15em;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   list-style-type: disc;
   color: #0f2d56;
 }
@@ -800,7 +797,7 @@ body p {
 }
 
 #cc {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-style: normal;
   font-size: 20px;
   color: #04ADBF;
@@ -808,7 +805,6 @@ body p {
   font-weight: bold;
   padding-top: 30px;
   text-align:center;
-  font-variant: small-caps;
 }
 
 .made-by {
